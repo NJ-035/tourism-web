@@ -849,7 +849,90 @@ html {
   transition: opacity 0.3s ease;
 }
 
-@media screen and (min-width: 1300px) and (max-width: 1440px) {
+/* product catalogue */
+
+.products-container{
+  min-width: 100%;
+  color: #000;
+  display: flex;
+}
+
+.exploreTarlac{
+  font-family: museumLight;
+  margin-top: 0.7rem;
+}
+
+.exploreTarlac__location{
+  font-family: museumLight;
+}
+
+.product-header{
+  width: 85%;
+  padding: 100px 10%;
+  font-family: museumLight;
+}
+
+.product-header h1{
+  margin-bottom: 20px;
+  font-weight: 900;
+}
+
+.product-header p{
+  margin-bottom: 40px;
+  font-size: 18px;
+}
+
+.browse-products{
+  background: rgb(20, 20, 39);
+  color: #fff;
+  font-size: 16px;
+  padding: 12px 20px;
+  border: 0;
+  outline: 0;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+/* cards layout */
+
+.highlight-wrapper{
+  width: 100vw 100%;
+  display: flex;
+  padding: 1%;
+  border-radius: 8px;
+  gap: 1rem; 
+  overflow: hidden;
+  flex-wrap: wrap; 
+  height: 100%;
+  justify-content: space-between;
+  align-content: space-around;
+  margin: 5em;
+}
+
+.highlight-card{
+  flex: 0 0 calc(45% - 0.1rem); 
+  height: 40%;
+  gap: 1rem; 
+  border-radius: 8px;
+  display: flex; 
+  align-items: center; 
+  margin: 0.5em;
+}
+
+.highlight-img{
+  width: 120px;
+  height: 120px;
+  border-radius: 5px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.highlight-text {
+  flex: 1; 
+}
+
+@media screen and (min-width: 1300px) and (max-width: 1920px) {
   .navbar {
       padding: 1rem 5rem; 
   }
@@ -874,7 +957,7 @@ html {
   }
 
   .navbar__link {
-      font-size: 0.7rem;
+      font-size: 0.9rem;
   }
 
   .dropdown-menu {
@@ -1025,6 +1108,7 @@ html {
 }
 
 /* DESKTOP */
+
 @media screen and (max-width: 1600px) {
   .navbar {
     padding: 1rem 5rem;
@@ -1775,7 +1859,7 @@ html {
   }
 
   .img-cover{
-    padding-top: 6.8rem;
+    padding-top: 6.3rem;
   }
 }
 
