@@ -250,6 +250,7 @@ html {
   font-size: 2rem;
   margin-top: 12vh;
   letter-spacing: 0.12rem;
+  font-weight: 600;
   text-transform: capitalize;
 }
 
