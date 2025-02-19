@@ -57,6 +57,7 @@ html {
   cursor: pointer;
   padding: 10px;
   border-radius: 4px;
+  margin-bottom: 5vb;
 }
 
 #myBtn:hover {
@@ -217,26 +218,41 @@ html {
 }
 
 .img-cover {
-  height: auto;
   width: 100%;
   object-fit: contain;
   display: block;
   margin: auto;
   flex-wrap: wrap;
-  position: relative;
 }
 
-.web-coverImg{
+.web-coverImg {
   position: relative; 
   display: flex; 
   width: 100%; 
   max-width: 100vw;
-  opacity: 0.98;
-  height: 75vh;
+  height: 100%;
+  max-height: 75vh;
 }
 
-.web-cover-text{
+.image-container img {
+  width: 100vw;
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(55%);
+  opacity: 0.98;
+}
+
+.web-cover-text {
   position: absolute; 
+  top: 50%;
+  left: 7.5rem;
+  transform: translateY(-50%); 
+  color: gold;
+  text-align: left;
+  font-family: museumLight;
+  text-shadow: 2px 2px 5px black, -2px -2px 5px gray;
+  z-index: 2;
   color: yellow;
   text-decoration: solid #000000;
   text-align: left;
@@ -246,8 +262,15 @@ html {
   text-shadow: 2px 2px 5px black, -2px -2px 5px gray;
 }
 
-.web-cover-text > .web__explore{
+.web__explore {
   font-size: 2rem;
+  letter-spacing: 0.12rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.web__title {
+  font-size: 6.2rem;
   margin-top: 12vh;
   letter-spacing: 0.12rem;
   text-transform: capitalize;
@@ -260,12 +283,11 @@ html {
   font-weight: bold;
 }
 
-.web-cover-text > .web__description{
+.web__description {
   margin-top: 1.25rem;
   font-size: 1.35rem;
   color: #fff;
-  font-weight: lighter;
-  margin-right: 5.25rem;
+  max-width: 50rem;
 }
 
 .home {
