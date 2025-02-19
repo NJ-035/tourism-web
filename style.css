@@ -932,6 +932,31 @@ html {
   flex: 1; 
 }
 
+@media screen and (max-width: 1345px) {
+  .products-container {
+      flex-wrap: wrap; 
+  }
+
+  .product-header {
+      width: 100%; 
+  }
+
+  .highlight-wrapper {
+      gap: 0.5rem; 
+      margin: 2em; 
+
+  }
+
+  .highlight-card {
+      flex: 0 0 calc(50% - 0.5rem); 
+  }
+
+  .highlight-img {
+      width: 160px; 
+      height: 160px;
+  }
+}
+
 @media screen and (min-width: 1300px) and (max-width: 1920px) {
   .navbar {
       padding: 1rem 4.8rem; 
@@ -2180,4 +2205,55 @@ html {
   .footer__size {
     font-size: 0.7rem;
   }
+}
+
+@media screen and (max-width: 375px){
+  .product-header h1 {
+    font-size: 2em;
+    padding: 1em 5%;
+}
+
+.product-header p {
+    font-size: 16px;
+    padding: 1em 5%;
+}
+
+.highlight-wrapper {
+    margin: 0.5em;
+}
+
+.highlight-card {
+    flex: 0 0 calc(100% - 1rem);
+    margin: 0.5em;
+}
+
+.highlight-img {
+    width: 100px;
+    height: 100px;
+}
+
+.product-header h1 {
+  font-size: 2em;
+  padding: 1em 5%;
+}
+
+.product-header p {
+  font-size: 16px;
+  padding: 1em 5%;
+}
+
+.highlight-wrapper {
+  margin: 0.5em;
+}
+
+.highlight-card {
+  flex: 0 0 calc(100% - 1rem);
+  margin: 0.5em;
+}
+
+.highlight-img {
+  width: 100px;
+  height: 100px;
+}
+
 }
