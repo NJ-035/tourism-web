@@ -235,7 +235,7 @@ html {
 
 .web-cover-text{
   position: absolute; 
-  color: yellow;
+  color: rgb(46, 178, 231);
   text-decoration: solid #000000;
   font-weight: bold; 
   text-align: left;
