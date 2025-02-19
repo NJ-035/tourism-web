@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 
+/* FONT POPPINS */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 /* FONT MUSEUM */
 @font-face {
   font-family: "museumInline";
@@ -237,23 +239,26 @@ html {
   position: absolute; 
   color: rgb(46, 178, 231);
   text-decoration: solid #000000;
-  font-weight: bold; 
   text-align: left;
   font-family: museumLight;
   margin-top: 7.5rem;
-  margin-left: 10rem;
+  margin-left: 7.5rem;
+  text-shadow: 2px 2px 5px black, -2px -2px 5px gray;
 }
 
 .web-cover-text > .web__explore{
   font-size: 2rem;
   margin-top: 12vh;
-  letter-spacing: 0.25rem;
+  letter-spacing: 0.12rem;
+  font-weight: 600;
   text-transform: capitalize;
 }
 
 .web-cover-text > .web__title{
   font-size: 4.8rem;
-  letter-spacing: 0.21rem;
+  letter-spacing: 0.10rem;
+  font-family: "Noto Sans Japanese", sans-serif;
+  font-weight: bold;
 }
 
 .web-cover-text > .web__description{
