@@ -237,7 +237,7 @@ html {
 
 .web-cover-text{
   position: absolute; 
-  color: rgb(46, 178, 231);
+  color: gold;
   text-decoration: solid #000000;
   text-align: left;
   font-family: museumLight;
@@ -255,8 +255,7 @@ html {
 }
 
 .web-cover-text > .web__title{
-  font-size: 4.8rem;
-  letter-spacing: 0.10rem;
+  font-size: 6.2rem;
   font-family: "Noto Sans Japanese", sans-serif;
   font-weight: bold;
 }
@@ -265,7 +264,6 @@ html {
   margin-top: 1.25rem;
   font-size: 1.35rem;
   color: #fff;
-  font-weight: lighter;
   margin-right: 5.25rem;
 }
 
