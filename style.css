@@ -1146,6 +1146,74 @@ html {
   width: 30rem;
 }
 
+.food-left-content {
+  display: flex;
+  align-items: center;
+  max-width: 85rem;
+  margin: auto;
+  margin-bottom: 5vb;
+  font-family: "Poppins", sans-serif;
+}
+
+.text-left-content {
+  flex: 1;
+  padding-left: 20px; /* Adjusted padding to the left */
+}
+
+.text-left-content h2 {
+  font-size: 2rem;
+}
+
+.text-left-content:hover > h2 {
+  color: rgb(0, 94, 138);
+}
+
+.images-left {
+  display: flex;
+  align-items: flex-start; 
+  gap: 1rem;
+  flex-wrap: wrap; 
+  max-width: 100%; 
+}
+
+.images-left img {
+  max-width: 20rem;
+  height: auto;
+  border-radius: 8px; 
+}
+
+.images-left img.img-1 {
+  width: 5rem;
+  height: 20rem;
+  max-width: 15rem;
+}
+
+.images-left img.img-2 {
+  width: 18rem;
+  height: 22.3rem;
+}
+
+/* Styling for the horizontal rule */
+.food-left-content .styled-hr {
+  display: flex;
+  gap: 7px; 
+  margin: 0.6rem 0 1.5rem 0;
+}
+
+.food-left-content .styled-hr::before, .food-left-content .styled-hr::after {
+  content: "";
+  display: block;
+  width: 32px; 
+  height: 2.5px;   
+  margin-left: 0.3rem;
+  background-color: rgb(18, 122, 190);
+}
+
+.food-left-content .styled-hr::after {
+  width: 15px; 
+}
+
+
 @media screen and (max-width: 1345px) {
   .products-container {
       flex-wrap: wrap; 
