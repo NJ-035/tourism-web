@@ -235,6 +235,14 @@ html {
 
 .web-cover-text {
   position: absolute; 
+  top: 50%;
+  left: 7.5rem;
+  transform: translateY(-50%); 
+  color: gold;
+  text-align: left;
+  font-family: museumLight;
+  text-shadow: 2px 2px 5px black, -2px -2px 5px gray;
+  z-index: 2;
   color: yellow;
   text-decoration: solid #000000;
   text-align: left;
@@ -242,12 +250,10 @@ html {
   margin-top: 7.5rem;
   margin-left: 7.5rem;
   text-shadow: 2px 2px 5px black, -2px -2px 5px gray;
-  z-index: 2;
 }
 
 .web__explore {
   font-size: 2rem;
-  margin-top: 12vh;
   letter-spacing: 0.12rem;
   font-weight: 600;
   text-transform: capitalize;
@@ -255,6 +261,14 @@ html {
 
 .web__title {
   font-size: 6.2rem;
+  margin-top: 12vh;
+  letter-spacing: 0.12rem;
+  text-transform: capitalize;
+}
+
+.web-cover-text > .web__title{
+  font-size: 4.8rem;
+  letter-spacing: 0.10rem;
   font-family: "Noto Sans Japanese", sans-serif;
   font-weight: bold;
 }
