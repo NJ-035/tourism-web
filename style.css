@@ -1342,6 +1342,24 @@ html {
   width: 15px; 
 }
 
+/* eco - tourism trp 1*/
+.images-right img.img-1-eco {
+  width: 17rem;
+  height: 22.5rem;
+  max-width: 18rem;
+}
+
+/* eco - tourism trp 2*/
+.images-right img.bottom-img-eco {
+  width: 30rem;
+  height: 15rem;
+  margin: 0.78rem 0 4.5rem 7.5rem; 
+}
+.column img.img-tour {
+  width: 35rem;
+  height: 16rem;
+  margin: 0 0 2.5rem 0; 
+}
 
 @media screen and (max-width: 1345px) {
   .products-container {
