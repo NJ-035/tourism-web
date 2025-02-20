@@ -230,33 +230,24 @@ html {
   display: flex; 
   width: 100%; 
   max-width: 100vw;
-  height: 100%;
-  max-height: 75vh;
-}
-
-.image-container img {
-  width: 100vw;
-  max-width: 100%;
-  height: 100%;
-  object-fit: cover;
-  filter: brightness(55%);
   opacity: 0.98;
 }
 
 .web-cover-text {
   position: absolute; 
-  top: 50%;
-  left: 7.5rem;
-  transform: translateY(-50%); 
-  color: gold;
+  color: yellow;
+  text-decoration: solid #000000;
   text-align: left;
   font-family: museumLight;
+  margin-top: 7.5rem;
+  margin-left: 7.5rem;
   text-shadow: 2px 2px 5px black, -2px -2px 5px gray;
   z-index: 2;
 }
 
 .web__explore {
   font-size: 2rem;
+  margin-top: 12vh;
   letter-spacing: 0.12rem;
   font-weight: 600;
   text-transform: capitalize;
@@ -982,6 +973,300 @@ html {
   flex: 1; 
 }
 
+/* Food Container */
+
+.food-right-content {
+  display: flex;
+  align-items: center;
+  max-width: 85rem;
+  margin: auto;
+  margin-bottom: 5vb;
+  font-family: "Poppins", sans-serif;
+}
+
+.food-right-content .styled-hr {
+  display: flex;
+  gap: 7px; 
+  margin: 0.6rem 0 1.5rem 0;
+}
+
+.food-right-content .styled-hr::before, .food-right-content
+.styled-hr::after {
+  content: "";
+  display: block;
+  width: 32px; 
+  height: 2.5px;   
+  margin-left: 0.3rem;
+  background-color: rgb(18, 122, 190);
+}
+
+.food-right-content .styled-hr::after {
+  width: 15px; 
+}
+
+.text-right-content {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.text-right-content h2{
+  font-size: 2rem;
+}
+
+.text-right-content:hover > h2 {
+  color: rgb(0, 94, 138);
+}
+
+.images-right {
+  display: flex;
+  align-items: flex-start; 
+  gap: 1rem;
+  flex-wrap: wrap; 
+  max-width: 100%; 
+}
+
+.images-right img {
+  max-width: 20rem;
+  height: auto;
+  border-radius: 8px; 
+}
+
+.images-right img.img-1 {
+  width: 5rem;
+  height: 20rem;
+  max-width: 15rem;
+}
+
+.images-right img.img-2 {
+  width: 18rem;
+  height: 22.3rem;
+}
+
+.images-right img.bottom-img {
+  width: 35rem;
+  height: 10rem;
+  margin: 0.78rem 0 4.5rem 7.5rem; 
+}
+
+.food-right-content p{
+  font-size: 1.15rem;
+  margin-right: 2rem;
+  font-weight: 300;
+  width: 30rem;
+}
+
+/* Food Container */
+
+.food-right-content {
+  display: flex;
+  align-items: center;
+  max-width: 85rem;
+  margin: auto;
+  margin-bottom: 5vb;
+  font-family: "Poppins", sans-serif;
+}
+
+.food-right-content .styled-hr {
+  display: flex;
+  gap: 7px; 
+  margin: 0.6rem 0 1.5rem 0;
+}
+
+.food-right-content .styled-hr::before, .food-right-content
+.styled-hr::after {
+  content: "";
+  display: block;
+  width: 32px; 
+  height: 2.5px;   
+  margin-left: 0.3rem;
+  background-color: rgb(18, 122, 190);
+}
+
+.food-right-content .styled-hr::after {
+  width: 15px; 
+}
+
+.text-right-content {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.text-right-content h2{
+  font-size: 2rem;
+}
+
+.text-right-content:hover > h2 {
+  color: rgb(0, 94, 138);
+}
+
+.images-right {
+  display: flex;
+  gap: 1.35rem; 
+}
+
+.images-right img {
+  width: 200px; 
+  height: auto;
+}
+
+.images-right img.img-1 {
+  width: 30rem; 
+  height: auto;
+}
+
+.food-right-content p{
+  font-size: 1.15rem;
+  margin-right: 5rem;
+  font-weight: 300;
+}
+
+/* Food Container */
+
+.food-right-content {
+  display: flex;
+  align-items: center;
+  max-width: 85rem;
+  margin: auto;
+  margin-bottom: 5vb;
+  font-family: "Poppins", sans-serif;
+}
+
+.food-right-content .styled-hr {
+  display: flex;
+  gap: 7px; 
+  margin: 0.6rem 0 1.5rem 0;
+}
+
+.food-right-content .styled-hr::before, .food-right-content
+.styled-hr::after {
+  content: "";
+  display: block;
+  width: 32px; 
+  height: 2.5px;   
+  margin-left: 0.3rem;
+  background-color: rgb(18, 122, 190);
+}
+
+.food-right-content .styled-hr::after {
+  width: 15px; 
+}
+
+.text-right-content {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.text-right-content h2{
+  font-size: 2rem;
+}
+
+.text-right-content:hover > h2 {
+  color: rgb(0, 94, 138);
+}
+
+.images-right {
+  display: flex;
+  gap: 1.35rem; 
+}
+
+.images-right img {
+  width: 200px; 
+  height: auto;
+}
+
+.images-right img.img-1 {
+  width: 30rem; 
+  height: auto;
+}
+
+.food-right-content p{
+  font-size: 1.15rem;
+  margin-right: 5rem;
+  font-weight: 300;
+}
+
+/* Food Container */
+
+.food-right-content {
+  display: flex;
+  align-items: center;
+  max-width: 85rem;
+  margin: auto;
+  margin-bottom: 5vb;
+  font-family: "Poppins", sans-serif;
+}
+
+.food-right-content .styled-hr {
+  display: flex;
+  gap: 7px; 
+  margin: 0.6rem 0 1.5rem 0;
+}
+
+.food-right-content .styled-hr::before, .food-right-content
+.styled-hr::after {
+  content: "";
+  display: block;
+  width: 32px; 
+  height: 2.5px;   
+  margin-left: 0.3rem;
+  background-color: rgb(18, 122, 190);
+}
+
+.food-right-content .styled-hr::after {
+  width: 15px; 
+}
+
+.text-right-content {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.text-right-content h2{
+  font-size: 2rem;
+}
+
+.text-right-content:hover > h2 {
+  color: rgb(0, 94, 138);
+}
+
+.images-right {
+  display: flex;
+  align-items: flex-start; 
+  gap: 1rem;
+  flex-wrap: wrap; 
+  max-width: 100%; 
+}
+
+.images-right img {
+  max-width: 20rem;
+  height: auto;
+  border-radius: 8px; 
+}
+
+.images-right img.img-1 {
+  width: 5rem;
+  height: 20rem;
+  max-width: 15rem;
+}
+
+.images-right img.img-2 {
+  width: 18rem;
+  height: 22.3rem;
+}
+
+.images-right img.bottom-img {
+  width: 35rem;
+  height: 10rem;
+  margin: 0.78rem 0 4.5rem 7.5rem; 
+}
+
+.food-right-content p{
+  font-size: 1.15rem;
+  margin-right: 2rem;
+  font-weight: 300;
+  width: 30rem;
+}
+
 @media screen and (max-width: 1345px) {
   .products-container {
       flex-wrap: wrap; 
@@ -1005,6 +1290,26 @@ html {
       width: 160px; 
       height: 160px;
   }
+}
+
+@media screen and (max-width: 1370px) {
+  .food-right-content{
+    max-width: 75rem;
+  }
+  .images-right {
+      display: flex;
+      gap: 1.35rem; 
+    }
+    
+    .images-right img {
+      width: 150px; 
+      height: auto;
+    }
+    
+    .images-right img.img-1 {
+      width: 30rem; 
+      height: auto;
+    }
 }
 
 @media screen and (min-width: 1300px) and (max-width: 1920px) {
