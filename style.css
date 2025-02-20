@@ -1206,6 +1206,7 @@ html {
   width: 30rem;
 }
 
+<<<<<<< HEAD
 /* Middle Content */
 
 .middle-content {
@@ -1284,11 +1285,24 @@ html {
   margin-bottom: 7.5vb;
   font-family: "Poppins", sans-serif;
   font-size: 1.10rem;
+=======
+.food-left-content {
+  display: flex;
+  align-items: center;
+  max-width: 85rem;
+  margin: auto;
+  margin-bottom: 5vb;
+  font-family: "Poppins", sans-serif;
+>>>>>>> food
 }
 
 .text-left-content {
   flex: 1;
+<<<<<<< HEAD
   padding-left: 20px; 
+=======
+  padding-left: 20px; /* Adjusted padding to the left */
+>>>>>>> food
 }
 
 .text-left-content h2 {
@@ -1308,16 +1322,34 @@ html {
 }
 
 .images-left img {
+<<<<<<< HEAD
   max-width: 30rem;
+=======
+  max-width: 20rem;
+>>>>>>> food
   height: auto;
   border-radius: 8px; 
 }
 
 .images-left img.img-1 {
+<<<<<<< HEAD
   width: 50rem;
   height: 22.3rem;
 }
 
+=======
+  width: 5rem;
+  height: 20rem;
+  max-width: 15rem;
+}
+
+.images-left img.img-2 {
+  width: 18rem;
+  height: 22.3rem;
+}
+
+/* Styling for the horizontal rule */
+>>>>>>> food
 .food-left-content .styled-hr {
   display: flex;
   gap: 7px; 
