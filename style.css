@@ -1228,7 +1228,7 @@ html {
 .styled-hr::after {
   content: "";
   display: block;
-  width: 32px; 
+  width: 8.5rem; 
   height: 2.5px;   
   margin-left: 0.3rem;
   background-color: rgb(18, 122, 190);
@@ -1274,6 +1274,69 @@ html {
 .middle-content h2{
   font-size: 2rem;
 }
+
+.food-left-content {
+  display: flex;
+  align-items: center;
+  max-width: 70rem;
+  margin: auto;
+  margin-top: 2vh;
+  margin-bottom: 7.5vb;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.10rem;
+}
+
+.text-left-content {
+  flex: 1;
+  padding-left: 20px; 
+}
+
+.text-left-content h2 {
+  font-size: 2rem;
+}
+
+.text-left-content:hover > h2 {
+  color: rgb(0, 94, 138);
+}
+
+.images-left {
+  display: flex;
+  align-items: flex-start; 
+  gap: 1rem;
+  flex-wrap: wrap; 
+  max-width: 100%; 
+}
+
+.images-left img {
+  max-width: 30rem;
+  height: auto;
+  border-radius: 8px; 
+}
+
+.images-left img.img-1 {
+  width: 50rem;
+  height: 22.3rem;
+}
+
+.food-left-content .styled-hr {
+  display: flex;
+  gap: 7px; 
+  margin: 0.6rem 0 1.5rem 0;
+}
+
+.food-left-content .styled-hr::before, .food-left-content .styled-hr::after {
+  content: "";
+  display: block;
+  width: 32px; 
+  height: 2.5px;   
+  margin-left: 0.3rem;
+  background-color: rgb(18, 122, 190);
+}
+
+.food-left-content .styled-hr::after {
+  width: 15px; 
+}
+
 
 @media screen and (max-width: 1345px) {
   .products-container {
