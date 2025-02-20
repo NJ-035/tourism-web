@@ -258,7 +258,7 @@ html {
   text-decoration: solid #000000;
   text-align: left;
   font-family: museumLight;
-  margin-top: 7.5rem;
+  margin-top: 1.5rem;
   margin-left: 7.5rem;
   text-shadow: 2px 2px 5px black, -2px -2px 5px gray;
 }
@@ -272,7 +272,7 @@ html {
 
 .web__title {
   font-size: 6.2rem;
-  margin-top: 12vh;
+  margin-top: 1vh;
   letter-spacing: 0.12rem;
   text-transform: capitalize;
 }
@@ -1044,33 +1044,12 @@ html {
 
 .images-right {
   display: flex;
-  align-items: flex-start; 
-  gap: 1rem;
-  flex-wrap: wrap; 
-  max-width: 100%; 
+  gap: 1.35rem;
 }
 
 .images-right img {
-  max-width: 20rem;
+  width: 200px;
   height: auto;
-  border-radius: 8px; 
-}
-
-.images-right img.img-1 {
-  width: 5rem;
-  height: 20rem;
-  max-width: 15rem;
-}
-
-.images-right img.img-2 {
-  width: 18rem;
-  height: 22.3rem;
-}
-
-.images-right img.bottom-img {
-  width: 35rem;
-  height: 10rem;
-  margin: 0.78rem 0 4.5rem 7.5rem; 
 }
 
 .food-right-content p{
@@ -1316,9 +1295,24 @@ html {
     width: 4rem;
   }
 
-  .image-container {
-    max-width: 100%;
+  .images-right img.img-1 {
+    width: 30rem;
     height: auto;
+  }
+  
+  .images-right img.img-2 {
+    width: 18rem;
+    height: 22.3rem;
+  }
+  
+  .images-right img.bottom-img {
+    width: 35rem;
+    height: 10rem;
+    margin: 0.78rem 0 4.5rem 7.5rem; 
+  }
+
+  .food-right-content {
+    max-width: 70rem;
   }
   
 }
