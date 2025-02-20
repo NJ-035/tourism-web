@@ -1267,10 +1267,15 @@ html {
 
 .column img{
   border-radius: 10px;
-  margin-bottom: 2vb;
+  margin-bottom: 4vb;
   width: 35rem;
 }
-
+.atv {
+  border-radius: 10px;
+  margin-bottom: 4vb;
+  width: 35rem;
+  margin-top: 6vb;
+}
 .middle-content h2{
   font-size: 2rem;
 }
