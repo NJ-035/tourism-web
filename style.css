@@ -1454,7 +1454,366 @@ html {
   height: 16rem;
   margin: 0 0 2.5rem 0; 
 }
+/* Adventure webpages */
 
+.adventure-right-content {
+  display: flex;
+  align-items: center;
+  max-width: 85rem;
+  margin: auto;
+  margin-bottom: 5vb;
+  font-family: "Poppins", sans-serif;
+}
+
+.adventure-right-content .styled-hr {
+  display: flex;
+  gap: 7px; 
+  margin: 0.6rem 0 1.5rem 0;
+}
+
+.adventure-right-content .styled-hr::before, .adventure-right-content
+.styled-hr::after {
+  content: "";
+  display: block;
+  width: 32px; 
+  height: 2.5px;   
+  margin-left: 0.3rem;
+  background-color: rgb(18, 122, 190);
+}
+
+.adventure-right-content .styled-hr::after {
+  width: 15px; 
+}
+
+.text-right-content {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.text-right-content h2{
+  font-size: 2rem;
+}
+
+.text-right-content:hover > h2 {
+  color: rgb(0, 94, 138);
+}
+
+.images-right {
+  display: flex;
+  gap: 1.35rem;
+}
+
+.images-right img {
+  width: 200px;
+  height: auto;
+}
+
+.adventure-right-content p{
+  font-size: 1.15rem;
+  margin-right: 2rem;
+  font-weight: 300;
+  width: 30rem;
+}
+
+/* Adventure Webpage */
+
+.adventure-right-content {
+  display: flex;
+  align-items: center;
+  max-width: 85rem;
+  margin: auto;
+  margin-bottom: 5vb;
+  font-family: "Poppins", sans-serif;
+}
+
+.adventure-right-content .styled-hr {
+  display: flex;
+  gap: 7px; 
+  margin: 0.6rem 0 1.5rem 0;
+}
+
+.adventure-right-content .styled-hr::before, .adventure-right-content
+.styled-hr::after {
+  content: "";
+  display: block;
+  width: 32px; 
+  height: 2.5px;   
+  margin-left: 0.3rem;
+  background-color: rgb(18, 122, 190);
+}
+
+.adventure-right-content .styled-hr::after {
+  width: 15px; 
+}
+
+.text-right-content {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.text-right-content h2{
+  font-size: 2rem;
+}
+
+.text-right-content:hover > h2 {
+  color: rgb(0, 94, 138);
+}
+
+.images-right {
+  display: flex;
+  gap: 1.35rem; 
+}
+
+.images-right img {
+  width: 200px; 
+  height: auto;
+}
+
+.images-right img.img-1 {
+  width: 30rem; 
+  height: auto;
+}
+
+.adventure-right-content p{
+  font-size: 1.15rem;
+  margin-right: 5rem;
+  font-weight: 300;
+}
+
+/* Adventure Webpage */
+
+.adventure-right-content {
+  display: flex;
+  align-items: center;
+  max-width: 85rem;
+  margin: auto;
+  margin-bottom: 1vb;
+  font-family: "Poppins", sans-serif;
+}
+
+.adventure-right-content .styled-hr {
+  display: flex;
+  gap: 7px; 
+  margin: 0.6rem 0 1.5rem 0;
+}
+
+.adventure-right-content .styled-hr::before, .adventure-right-content
+.styled-hr::after {
+  content: "";
+  display: block;
+  width: 32px; 
+  height: 2.5px;   
+  margin-left: 0.3rem;
+  background-color: rgb(18, 122, 190);
+}
+
+.adventure-right-content .styled-hr::after {
+  width: 15px; 
+}
+
+.text-right-content {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.text-right-content h2{
+  font-size: 2rem;
+}
+
+.text-right-content:hover > h2 {
+  color: rgb(0, 94, 138);
+}
+
+.images-right {
+  display: flex;
+  align-items: flex-start; 
+  gap: 1rem;
+  flex-wrap: wrap; 
+  max-width: 100%; 
+}
+
+.images-right img {
+  max-width: 20rem;
+  height: auto;
+  border-radius: 8px; 
+}
+
+.images-right img.img-1 {
+  width: 5rem;
+  height: 20rem;
+  max-width: 15rem;
+}
+
+.images-right img.img-2 {
+  width: 18rem;
+  height: 22.3rem;
+}
+
+.images-right img.bottom-img {
+  width: 35rem;
+  height: 10rem;
+  margin: 0.78rem 0 4.5rem 7.5rem; 
+}
+
+.adventure-right-content p{
+  font-size: 1.15rem;
+  margin-right: 2rem;
+  font-weight: 300;
+  width: 30rem;
+}
+
+/* Middle Content */
+
+.middle-content {
+  display: flex;
+  gap: 1.7rem;
+  max-width: 83rem;
+  margin: auto;
+  padding: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  flex-wrap: wrap;
+}
+
+.middle-content .styled-hr {
+  display: flex;
+  gap: px; 
+  margin: 0.6rem 0 1.5rem 0;
+}
+
+.middle-content  .styled-hr::before, .middle-content 
+.styled-hr::after {
+  content: "";
+  display: block;
+  width: 3.5rem; 
+  height: 2.5px;   
+  margin-left: 0.3rem;
+  background-color: rgb(18, 122, 190);
+}
+
+.middle-content .styled-hr::after {
+  width: 15px; 
+}
+.middle-content .styled-hr1 {
+  display: flex;
+  gap: px; 
+  margin: 0.6rem 0 1.5rem 0;
+}
+.middle-content  .styled-hr1::before, .middle-content 
+.styled-hr1::after {
+  content: "";
+  display: block;
+  width: 1.5rem; 
+  height: 2.5px;   
+  margin-left: 0.3rem;
+  background-color: rgb(18, 122, 190);
+}
+.middle-content .styled-hr1::after {
+  width: 15px; 
+}
+
+.middle-content {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.column h2{
+  font-size: 2rem;
+}
+
+.column:hover > h2 {
+  color: rgb(0, 94, 138);
+}
+
+.column {
+  flex: 1;
+  padding: 1.1rem;
+  font-size: 1.10rem;
+  width: 15rem;
+}
+
+.content-wrapper img {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto 10px;
+}
+
+.column img{
+  border-radius: 10px;
+  margin-bottom: 4vb;
+  width: 35rem;
+}
+.atv {
+  border-radius: 10px;
+  margin-bottom: 4vb;
+  width: 35rem;
+  margin-top: 6vb;
+}
+.middle-content h2{
+  font-size: 2rem;
+}
+
+.adventure-left-content {
+  display: flex;
+  align-items: center;
+  max-width: 70rem;
+  margin: auto;
+  margin-top: 2vh;
+  margin-bottom: 7.5vb;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.10rem;
+}
+
+.text-left-content {
+  flex: 1;
+  padding-left: 20px; 
+}
+
+.text-left-content h2 {
+  font-size: 2rem;
+}
+
+.text-left-content:hover > h2 {
+  color: rgb(0, 94, 138);
+}
+
+.images-left {
+  display: flex;
+  align-items: flex-start; 
+  gap: 1rem;
+  flex-wrap: wrap; 
+  max-width: 100%; 
+}
+
+.images-left img {
+  max-width: 30rem;
+  height: auto;
+  border-radius: 8px; 
+}
+
+.images-left img.img-1 {
+  width: 50rem;
+  height: 22.3rem;
+}
+
+.adventure-left-content .styled-hr {
+  display: flex;
+  gap: 7px; 
+  margin: 0.6rem 0 1.5rem 0;
+}
+
+.adventure-left-content .styled-hr::before, .adventure-left-content .styled-hr::after {
+  content: "";
+  display: block;
+  width: 32px; 
+  height: 2.5px;   
+  margin-left: 0.3rem;
+  background-color: rgb(18, 122, 190);
+}
+
+.adventure-left-content .styled-hr::after {
+  width: 15px; 
+}
 @media screen and (max-width: 1345px) {
   .products-container {
       flex-wrap: wrap; 
@@ -1565,7 +1924,7 @@ html {
     margin: 0.78rem 0 4.5rem 7.5rem; 
   }
 
-  .food-right-content {
+  .adventure-right-content {
     max-width: 70rem;
   }
 }
