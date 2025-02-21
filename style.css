@@ -1449,11 +1449,32 @@ html {
   height: 15rem;
   margin: 0.78rem 0 4.5rem 7.5rem; 
 }
+/*canding and lubigan*/
 .column img.img-tour {
   width: 35rem;
   height: 16rem;
-  margin: 0 0 2.5rem 0; 
+  margin: 0 0 2rem 0; 
 }
+/*sitio tala 1*/
+.images-right img.img-1-eco-1 {
+  width: 17.5rem;
+  height: 15rem;
+  max-width: 24rem;
+}
+/*sitio tala 2*/
+.images-right img.img-2-eco-1 {
+  width: 17.5rem;
+  height: 15rem;
+  max-width: 24rem;
+}
+
+/*bulsa river*/
+.column img.img-tour-1{
+  width: 38rem;
+  height: 22.3rem;
+  margin: 3rem 0 2rem 0; 
+}
+
 
 @media screen and (max-width: 1345px) {
   .products-container {
