@@ -1037,14 +1037,14 @@ html {
 
 
 .provincial-tourism > h3 {
-  color: rgb(18, 122, 190);
+  color: white;
   font-size: 1.25rem;
   margin-bottom: 0.98rem;
 }
 
 .role {
-  color: rgb(18, 122, 190);
-  font-size: 0.90rem;
+  color: rgb(30, 104, 153);
+  font-size: 0.93rem;
   font-weight: bold;
 }
 
@@ -1066,6 +1066,8 @@ html {
   flex-direction: column;
   align-items: center;
   margin-bottom: 5rem;
+  padding: 8rem;
+  background-color: hsl(0, 0%, 97%);
 }
 
 .provincial-tourism .styled-hr {
@@ -1093,7 +1095,7 @@ html {
 }
 
 .provincial-tourism:hover > h2 {
-  color: rgb(0, 94, 138);
+  color: rgb(30, 104, 153);
 }
 
 .provincial-tourism .card p.name{
