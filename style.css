@@ -1069,11 +1069,11 @@ html {
   gap: 2rem; 
   padding: 1.5rem 4rem; 
   margin: 2.1rem auto; 
-  max-width: 45rem; 
+  max-width: 40rem; 
 }
 
 .img-tourism-logos img {
-  max-height: 8rem;
+  max-height: 5.7rem;
   width: auto;
 }
 
@@ -1127,6 +1127,22 @@ html {
 .provincial-tourism .card p.name{
   font-size: 1.03rem;
 }
+
+.social-link {
+  text-decoration: none;
+  color: rgb(30, 104, 153);
+  font-size: 0.98rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+}
+
+.social-link i {
+  color: rgb(30, 104, 153);
+  font-size: 1.2rem;
+}
+
 
 /* Food Container */
 
