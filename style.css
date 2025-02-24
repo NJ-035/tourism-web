@@ -6,7 +6,6 @@
 
 /* FONT POPPINS */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
 /* FONT MUSEUM */
 @font-face {
   font-family: "museumInline";
@@ -1960,6 +1959,16 @@ html {
   .adventure-right-content {
     max-width: 70rem;
   }
+
+  .food-right-content {
+    display: flex;
+    align-items: center;
+    max-width: 70rem;
+    margin: auto;
+    margin-bottom: 5vb;
+    font-family: "Poppins", sans-serif;
+  }
+
 }
 
 @media screen and (max-width: 1024px) {
