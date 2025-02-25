@@ -1134,7 +1134,7 @@ html {
   font-size: 0.98rem;
   display: inline-flex;
   align-items: center;
-  gap: 0.24rem; 
+  gap: 0.5rem; 
   margin-top: 0.75rem;
   flex-wrap: nowrap;
 }
