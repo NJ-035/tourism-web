@@ -1371,7 +1371,7 @@ html {
 .middle-content {
   display: flex;
   gap: 1.7rem;
-  max-width: 83rem;
+  max-width: 85rem;
   margin: auto;
   padding: 1.5rem;
   font-family: "Poppins", sans-serif;
@@ -1415,21 +1415,22 @@ html {
   flex: 1;
   padding: 1.1rem;
   font-size: 1.10rem;
-  width: 15rem;
+  width: 25rem;
 }
 
 .content-wrapper img {
   display: block;
   width: 100%;
-  max-width: 400px;
+  max-width: 50rem;
   margin: 0 auto 10px;
 }
 
 .column img{
   border-radius: 10px;
   margin-bottom: 4vb;
-  width: 35rem;
+  width: 40rem;
 }
+
 .atv {
   border-radius: 10px;
   margin-bottom: 4vb;
@@ -1904,15 +1905,136 @@ html {
 }
 
 /*Religion*/
-.images-left img.peace {
-  width: 30rem; 
-  height: auto;
-}
 
 .adventure-right-content .images-right img.anao-church{
   width: 35rem;
   max-width: 50rem;
   height: auto;
+}
+
+.images-right img.img-1-faith {
+  width: 24rem;
+  height: 16rem;
+  max-width: 40rem;
+  margin-left: 1.5rem;
+}
+
+.images-right img.img-2-faith {
+  width: 22rem;
+  height: 15rem;
+  max-width: 40rem;
+  margin-top: 3rem;
+}
+
+.religion-right-content {
+  display: flex;
+  align-items: center;
+  max-width: 78rem;
+  margin: auto;
+  margin-bottom: 5vb;
+  font-family: "Poppins", sans-serif;
+}
+
+.religion-right-content .styled-hr {
+  display: flex;
+  gap: 7px; 
+  margin: 0.6rem 0 1.5rem 0;
+}
+
+.religion-right-content .styled-hr::before, .religion-right-content
+.styled-hr::after {
+  content: "";
+  display: block;
+  width: 32px; 
+  height: 2.5px;   
+  margin-left: 0.3rem;
+  background-color: rgb(18, 122, 190);
+}
+
+.religion-right-content .styled-hr::after {
+  width: 15px; 
+}
+
+.text-right-content {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.text-right-content h2{
+  font-size: 2rem;
+}
+
+.text-right-content:hover > h2 {
+  color: rgb(0, 94, 138);
+}
+
+.assisi{
+  margin-top: 5rem;
+  height: 23rem;
+}
+
+.nonnatus{
+  margin-top: 4vh;
+  height: 25rem;
+}
+
+.religion-left-content {
+  display: flex;
+  align-items: center;
+  max-width: 77.5rem;
+  margin: auto;
+  margin-top: 3vh;
+  margin-bottom: 9.5vb;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.10rem;
+}
+
+.text-left-content {
+  flex: 1;
+  padding-left: 20px; 
+}
+
+.text-left-content h2 {
+  font-size: 2rem;
+}
+
+.text-left-content:hover > h2 {
+  color: rgb(0, 94, 138);
+}
+
+.images-left {
+  display: flex;
+  align-items: flex-start; 
+  gap: 1rem;
+  flex-wrap: wrap; 
+  max-width: 100%; 
+}
+
+.images-left img.peace {
+  width: 35rem; 
+  height: 25rem;
+  margin-right: 2.5rem;
+  max-width: 50rem;
+  max-height: 50rem;
+}
+
+.religion-left-content .styled-hr {
+  display: flex;
+  gap: 7px; 
+  margin: 0.6rem 0 1.5rem 0;
+}
+
+.religion-left-content .styled-hr::before, .religion-left-content .styled-hr::after {
+  content: "";
+  display: block;
+  width: 32px; 
+  height: 2.5px;   
+  margin-left: 0.3rem;
+  background-color: rgb(18, 122, 190);
+}
+
+.religion-left-content .styled-hr::after {
+  width: 15px; 
 }
 
 @media screen and (max-width: 1345px) {
