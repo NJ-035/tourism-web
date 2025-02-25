@@ -1896,6 +1896,19 @@ html {
 .adventure-left-content .styled-hr::after {
   width: 15px; 
 }
+
+/*Religion*/
+.images-left img.peace {
+  width: 30rem; 
+  height: auto;
+}
+
+.adventure-right-content .images-right img.anao-church{
+  width: 35rem;
+  max-width: 50rem;
+  height: auto;
+}
+
 @media screen and (max-width: 1345px) {
   .products-container {
       flex-wrap: wrap; 
