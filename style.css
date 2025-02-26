@@ -6,6 +6,7 @@
 
 /* FONT POPPINS */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 /* FONT MUSEUM */
 @font-face {
   font-family: "museumInline";
@@ -1011,48 +1012,69 @@ html {
 .tarlac-tourism-dept {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
-  max-width: 1200px;
+  gap: 1.2rem;
+  max-width: 75rem;
   margin: auto;
-  padding: 20px;
+  padding: 2rem;
   font-family: "Poppins", sans-serif;
 }
 
 .card {
   background: white;
   border-radius: 10px;
-  padding: 20px;
+  padding: 1.35rem;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-  text-align: left;
+  text-align: center; 
+  display: flex;  
+  flex-direction: column;  
+  align-items: center;  
 }
 
 .logo {
-  width: 60px;
+  width: 15rem; 
   height: auto;
-  margin-bottom: 10px;
+  margin-bottom: 0.95rem;
 }
 
+
 .provincial-tourism > h3 {
-  color: rgb(18, 122, 190);
-  font-size: 18px;
-  margin-bottom: 5px;
+  color: white;
+  font-size: 1.25rem;
+  margin-bottom: 0.98rem;
 }
 
 .role {
-  color: rgb(18, 122, 190);
-  font-size: 14px;
+  color: rgb(30, 104, 153);
+  font-size: 0.93rem;
   font-weight: bold;
 }
 
 .email {
   color: #555;
-  font-size: 14px;
+  font-size: 0.85rem;
 }
 
 @media (min-width: 1024px) {
   .tarlac-tourism-dept {
       grid-template-columns: repeat(3, 1fr); 
   }
+}
+
+/*Logos*/
+
+.img-tourism-logos {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  gap: 2rem; 
+  padding: 1.5rem 4rem; 
+  margin: 2.1rem auto; 
+  max-width: 50rem; 
+}
+
+.img-tourism-logos img {
+  max-height: 5.7rem;
+  width: auto;
 }
 
 /* Tourism */
@@ -1062,7 +1084,21 @@ html {
   flex-direction: column;
   align-items: center;
   margin-bottom: 5rem;
+  padding: 8rem;
+  background-color: hsl(0, 0%, 97%);
+  margin-bottom: 2rem;
+  padding: 4.5rem;
+  background-color: hsl(0, 0%, 92%);
+  
+  background-image: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), 
+                    url('TarlacTourism/capitol-tarlac1.png');
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
 }
+
 
 .provincial-tourism .styled-hr {
   display: flex;
@@ -1089,8 +1125,38 @@ html {
 }
 
 .provincial-tourism:hover > h2 {
-  color: rgb(0, 94, 138);
+  color: rgb(30, 104, 153);
 }
+
+.provincial-tourism .card p.name{
+  font-size: 1.03rem;
+}
+
+.social-link {
+  text-decoration: none;
+  color: rgb(30, 104, 153);
+  font-size: 0.98rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem; 
+  margin-top: 0.75rem;
+  flex-wrap: nowrap;
+}
+
+.social-link i {
+  color: rgb(30, 104, 153);
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.social-link span {
+  white-space: nowrap; 
+}
+
+
 
 /* Food Container */
 
@@ -1305,7 +1371,7 @@ html {
 .middle-content {
   display: flex;
   gap: 1.7rem;
-  max-width: 83rem;
+  max-width: 85rem;
   margin: auto;
   padding: 1.5rem;
   font-family: "Poppins", sans-serif;
@@ -1349,21 +1415,22 @@ html {
   flex: 1;
   padding: 1.1rem;
   font-size: 1.10rem;
-  width: 15rem;
+  width: 25rem;
 }
 
 .content-wrapper img {
   display: block;
   width: 100%;
-  max-width: 400px;
+  max-width: 50rem;
   margin: 0 auto 10px;
 }
 
 .column img{
   border-radius: 10px;
   margin-bottom: 4vb;
-  width: 35rem;
+  width: 40rem;
 }
+
 .atv {
   border-radius: 10px;
   margin-bottom: 4vb;
@@ -1455,6 +1522,9 @@ html {
   height: 16rem;
   margin: 0 0 2rem 0; 
 }
+
+/* Adventure webpages */
+
 /*sitio tala 1*/
 .images-right img.img-1-eco-1 {
   width: 17.5rem;
@@ -1470,11 +1540,377 @@ html {
 
 /*bulsa river*/
 .column img.img-tour-1{
-  width: 40rem;
+  width: 38rem;
   height: 22.3rem;
-  margin: 1.5rem 0 2rem 0; 
+  margin: 3rem 0 2rem 0; 
 }
 
+.adventure-right-content {
+  display: flex;
+  align-items: center;
+  max-width: 85rem;
+  margin: auto;
+  margin-bottom: 5vb;
+  font-family: "Poppins", sans-serif;
+}
+
+.adventure-right-content .styled-hr {
+  display: flex;
+  gap: 7px; 
+  margin: 0.6rem 0 1.5rem 0;
+}
+
+.adventure-right-content .styled-hr::before, .adventure-right-content
+.styled-hr::after {
+  content: "";
+  display: block;
+  width: 32px; 
+  height: 2.5px;   
+  margin-left: 0.3rem;
+  background-color: rgb(18, 122, 190);
+}
+
+.adventure-right-content .styled-hr::after {
+  width: 15px; 
+}
+
+.text-right-content {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.text-right-content h2{
+  font-size: 2rem;
+}
+
+.text-right-content:hover > h2 {
+  color: rgb(0, 94, 138);
+}
+
+.images-right {
+  display: flex;
+  gap: 1.35rem;
+}
+
+.images-right img {
+  width: 200px;
+  height: auto;
+}
+
+.adventure-right-content p{
+  font-size: 1.15rem;
+  margin-right: 2rem;
+  font-weight: 300;
+  width: 30rem;
+}
+
+/* Adventure Webpage */
+
+.adventure-right-content {
+  display: flex;
+  align-items: center;
+  max-width: 85rem;
+  margin: auto;
+  margin-bottom: 5vb;
+  font-family: "Poppins", sans-serif;
+}
+
+.adventure-right-content .styled-hr {
+  display: flex;
+  gap: 7px; 
+  margin: 0.6rem 0 1.5rem 0;
+}
+
+.adventure-right-content .styled-hr::before, .adventure-right-content
+.styled-hr::after {
+  content: "";
+  display: block;
+  width: 32px; 
+  height: 2.5px;   
+  margin-left: 0.3rem;
+  background-color: rgb(18, 122, 190);
+}
+
+.adventure-right-content .styled-hr::after {
+  width: 15px; 
+}
+
+.text-right-content {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.text-right-content h2{
+  font-size: 2rem;
+}
+
+.text-right-content:hover > h2 {
+  color: rgb(0, 94, 138);
+}
+
+.images-right {
+  display: flex;
+  gap: 1.35rem; 
+}
+
+.images-right img {
+  width: 200px; 
+  height: auto;
+}
+
+.images-right img.img-1 {
+  width: 30rem; 
+  height: auto;
+}
+
+.adventure-right-content p{
+  font-size: 1.15rem;
+  margin-right: 5rem;
+  font-weight: 300;
+}
+
+/* Adventure Webpage */
+
+.adventure-right-content {
+  display: flex;
+  align-items: center;
+  max-width: 85rem;
+  margin: auto;
+  margin-bottom: 1vb;
+  font-family: "Poppins", sans-serif;
+}
+
+.adventure-right-content .styled-hr {
+  display: flex;
+  gap: 7px; 
+  margin: 0.6rem 0 1.5rem 0;
+}
+
+.adventure-right-content .styled-hr::before, .adventure-right-content
+.styled-hr::after {
+  content: "";
+  display: block;
+  width: 32px; 
+  height: 2.5px;   
+  margin-left: 0.3rem;
+  background-color: rgb(18, 122, 190);
+}
+
+.adventure-right-content .styled-hr::after {
+  width: 15px; 
+}
+
+.text-right-content {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.text-right-content h2{
+  font-size: 2rem;
+}
+
+.text-right-content:hover > h2 {
+  color: rgb(0, 94, 138);
+}
+
+.images-right {
+  display: flex;
+  align-items: flex-start; 
+  gap: 1rem;
+  flex-wrap: wrap; 
+  max-width: 100%; 
+}
+
+.images-right img {
+  max-width: 20rem;
+  height: auto;
+  border-radius: 8px; 
+}
+
+.images-right img.img-1 {
+  width: 5rem;
+  height: 20rem;
+  max-width: 15rem;
+}
+
+.images-right img.img-2 {
+  width: 18rem;
+  height: 22.3rem;
+}
+
+.images-right img.bottom-img {
+  width: 35rem;
+  height: 10rem;
+  margin: 0.78rem 0 4.5rem 7.5rem; 
+}
+
+.adventure-right-content p{
+  font-size: 1.15rem;
+  margin-right: 2rem;
+  font-weight: 300;
+  width: 30rem;
+}
+
+/* Middle Content */
+
+.middle-content {
+  display: flex;
+  gap: 1.7rem;
+  max-width: 83rem;
+  margin: auto;
+  padding: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  flex-wrap: wrap;
+}
+
+.middle-content .styled-hr {
+  display: flex;
+  gap: px; 
+  margin: 0.6rem 0 1.5rem 0;
+}
+
+.middle-content  .styled-hr::before, .middle-content 
+.styled-hr::after {
+  content: "";
+  display: block;
+  width: 3.5rem; 
+  height: 2.5px;   
+  margin-left: 0.3rem;
+  background-color: rgb(18, 122, 190);
+}
+
+.middle-content .styled-hr::after {
+  width: 15px; 
+}
+.middle-content .styled-hr1 {
+  display: flex;
+  gap: px; 
+  margin: 0.6rem 0 1.5rem 0;
+}
+.middle-content  .styled-hr1::before, .middle-content 
+.styled-hr1::after {
+  content: "";
+  display: block;
+  width: 1.5rem; 
+  height: 2.5px;   
+  margin-left: 0.3rem;
+  background-color: rgb(18, 122, 190);
+}
+.middle-content .styled-hr1::after {
+  width: 15px; 
+}
+
+.middle-content {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.column h2{
+  font-size: 2rem;
+}
+
+.column:hover > h2 {
+  color: rgb(0, 94, 138);
+}
+
+.column {
+  flex: 1;
+  padding: 1.1rem;
+  font-size: 1.10rem;
+  width: 15rem;
+}
+
+.content-wrapper img {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto 10px;
+}
+
+.column img{
+  border-radius: 10px;
+  margin-bottom: 4vb;
+  width: 35rem;
+}
+.atv {
+  border-radius: 10px;
+  margin-bottom: 4vb;
+  width: 35rem;
+  margin-top: 6vb;
+}
+.middle-content h2{
+  font-size: 2rem;
+}
+
+.adventure-left-content {
+  display: flex;
+  align-items: center;
+  max-width: 70rem;
+  margin: auto;
+  margin-top: 2vh;
+  margin-bottom: 7.5vb;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.10rem;
+}
+
+.text-left-content {
+  flex: 1;
+  padding-left: 20px; 
+}
+
+.text-left-content h2 {
+  font-size: 2rem;
+}
+
+.text-left-content:hover > h2 {
+  color: rgb(0, 94, 138);
+}
+
+.images-left {
+  display: flex;
+  align-items: flex-start; 
+  gap: 1rem;
+  flex-wrap: wrap; 
+  max-width: 100%; 
+}
+
+.images-left img {
+  max-width: 30rem;
+  height: auto;
+  border-radius: 8px; 
+}
+
+.images-left img.img-1 {
+  width: 50rem;
+  height: 22.3rem;
+}
+
+.adventure-left-content .styled-hr {
+  display: flex;
+  gap: 7px; 
+  margin: 0.6rem 0 1.5rem 0;
+}
+
+.adventure-left-content .styled-hr::before, .adventure-left-content .styled-hr::after {
+  content: "";
+  display: block;
+  width: 32px; 
+  height: 2.5px;   
+  margin-left: 0.3rem;
+  background-color: rgb(18, 122, 190);
+}
+
+.adventure-left-content .styled-hr::after {
+  width: 15px; 
+}
+
+/*Religion*/
+
+.adventure-right-content .images-right img.anao-church{
+  width: 35rem;
+  max-width: 50rem;
+  height: auto;
+}
 
 @media screen and (max-width: 1345px) {
   .products-container {
@@ -1586,9 +2022,19 @@ html {
     margin: 0.78rem 0 4.5rem 7.5rem; 
   }
 
-  .food-right-content {
+  .adventure-right-content {
     max-width: 70rem;
   }
+
+  .food-right-content {
+    display: flex;
+    align-items: center;
+    max-width: 70rem;
+    margin: auto;
+    margin-bottom: 5vb;
+    font-family: "Poppins", sans-serif;
+  }
+
 }
 
 @media screen and (max-width: 1024px) {
