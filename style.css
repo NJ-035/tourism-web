@@ -6,6 +6,7 @@
 
 /* FONT POPPINS */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 /* FONT MUSEUM */
 @font-face {
   font-family: "museumInline";
@@ -1059,6 +1060,23 @@ html {
   }
 }
 
+/*Logos*/
+
+.img-tourism-logos {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  gap: 2rem; 
+  padding: 1.5rem 4rem; 
+  margin: 2.1rem auto; 
+  max-width: 50rem; 
+}
+
+.img-tourism-logos img {
+  max-height: 5.7rem;
+  width: auto;
+}
+
 /* Tourism */
 
 .provincial-tourism {
@@ -1068,7 +1086,19 @@ html {
   margin-bottom: 5rem;
   padding: 8rem;
   background-color: hsl(0, 0%, 97%);
+  margin-bottom: 2rem;
+  padding: 4.5rem;
+  background-color: hsl(0, 0%, 92%);
+  
+  background-image: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), 
+                    url('TarlacTourism/capitol-tarlac1.png');
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
 }
+
 
 .provincial-tourism .styled-hr {
   display: flex;
@@ -1101,6 +1131,32 @@ html {
 .provincial-tourism .card p.name{
   font-size: 1.03rem;
 }
+
+.social-link {
+  text-decoration: none;
+  color: rgb(30, 104, 153);
+  font-size: 0.98rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem; 
+  margin-top: 0.75rem;
+  flex-wrap: nowrap;
+}
+
+.social-link i {
+  color: rgb(30, 104, 153);
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.social-link span {
+  white-space: nowrap; 
+}
+
+
 
 /* Food Container */
 
@@ -1315,7 +1371,7 @@ html {
 .middle-content {
   display: flex;
   gap: 1.7rem;
-  max-width: 83rem;
+  max-width: 85rem;
   margin: auto;
   padding: 1.5rem;
   font-family: "Poppins", sans-serif;
@@ -1359,21 +1415,22 @@ html {
   flex: 1;
   padding: 1.1rem;
   font-size: 1.10rem;
-  width: 15rem;
+  width: 25rem;
 }
 
 .content-wrapper img {
   display: block;
   width: 100%;
-  max-width: 400px;
+  max-width: 50rem;
   margin: 0 auto 10px;
 }
 
 .column img{
   border-radius: 10px;
   margin-bottom: 4vb;
-  width: 35rem;
+  width: 40rem;
 }
+
 .atv {
   border-radius: 10px;
   margin-bottom: 4vb;
@@ -1846,6 +1903,140 @@ html {
 .adventure-left-content .styled-hr::after {
   width: 15px; 
 }
+
+/*Religion*/
+
+.adventure-right-content .images-right img.anao-church{
+  width: 35rem;
+  max-width: 50rem;
+  height: auto;
+}
+
+.images-right img.img-1-faith {
+  width: 24rem;
+  height: 16rem;
+  max-width: 40rem;
+  margin-left: 1.5rem;
+}
+
+.images-right img.img-2-faith {
+  width: 22rem;
+  height: 15rem;
+  max-width: 40rem;
+  margin-top: 3rem;
+}
+
+.religion-right-content {
+  display: flex;
+  align-items: center;
+  max-width: 78rem;
+  margin: auto;
+  margin-bottom: 5vb;
+  font-family: "Poppins", sans-serif;
+}
+
+.religion-right-content .styled-hr {
+  display: flex;
+  gap: 7px; 
+  margin: 0.6rem 0 1.5rem 0;
+}
+
+.religion-right-content .styled-hr::before, .religion-right-content
+.styled-hr::after {
+  content: "";
+  display: block;
+  width: 32px; 
+  height: 2.5px;   
+  margin-left: 0.3rem;
+  background-color: rgb(18, 122, 190);
+}
+
+.religion-right-content .styled-hr::after {
+  width: 15px; 
+}
+
+.text-right-content {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.text-right-content h2{
+  font-size: 2rem;
+}
+
+.text-right-content:hover > h2 {
+  color: rgb(0, 94, 138);
+}
+
+.assisi{
+  margin-top: 5rem;
+  height: 23rem;
+}
+
+.nonnatus{
+  margin-top: 4vh;
+  height: 25rem;
+}
+
+.religion-left-content {
+  display: flex;
+  align-items: center;
+  max-width: 77.5rem;
+  margin: auto;
+  margin-top: 3vh;
+  margin-bottom: 9.5vb;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.10rem;
+}
+
+.text-left-content {
+  flex: 1;
+  padding-left: 20px; 
+}
+
+.text-left-content h2 {
+  font-size: 2rem;
+}
+
+.text-left-content:hover > h2 {
+  color: rgb(0, 94, 138);
+}
+
+.images-left {
+  display: flex;
+  align-items: flex-start; 
+  gap: 1rem;
+  flex-wrap: wrap; 
+  max-width: 100%; 
+}
+
+.images-left img.peace {
+  width: 35rem; 
+  height: 25rem;
+  margin-right: 2.5rem;
+  max-width: 50rem;
+  max-height: 50rem;
+}
+
+.religion-left-content .styled-hr {
+  display: flex;
+  gap: 7px; 
+  margin: 0.6rem 0 1.5rem 0;
+}
+
+.religion-left-content .styled-hr::before, .religion-left-content .styled-hr::after {
+  content: "";
+  display: block;
+  width: 32px; 
+  height: 2.5px;   
+  margin-left: 0.3rem;
+  background-color: rgb(18, 122, 190);
+}
+
+.religion-left-content .styled-hr::after {
+  width: 15px; 
+}
+
 @media screen and (max-width: 1345px) {
   .products-container {
       flex-wrap: wrap; 
