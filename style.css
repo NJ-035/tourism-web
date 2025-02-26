@@ -1933,7 +1933,6 @@ html {
   margin: auto;
   margin-bottom: 5vb;
   font-family: "Poppins", sans-serif;
-  font-size: 1.12rem;
 }
 
 .religion-right-content .styled-hr {
@@ -2037,11 +2036,6 @@ html {
 .religion-left-content .styled-hr::after {
   width: 15px; 
 }
-
-/* Specific layout for anao
-
-
-/* Responsive Website*/
 
 @media screen and (max-width: 1345px) {
   .products-container {
