@@ -10,7 +10,9 @@ Created by the Computer Science students and updated by the BSIT & BSIS students
 
 ## Authors
 
+- [Arcega, John David C. - Designer] ()
 - [Esteban, Gerald C. - Developer]()
+- [Guillermo, Katherine Ann C.]()
 
 - [Palasigue, Calvin Ken N. - Data Analyst / Tester]()
 
