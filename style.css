@@ -2017,7 +2017,7 @@ html {
   color: white;
   margin-left: 18%;
 }
-.fes-1 .festival1-text-content p {
+.p {
   color: white;
 }
 
@@ -2118,6 +2118,16 @@ html {
 
 .fes-1 .festival1-text-content p{
   margin-left: 18%;
+=======
+.fes-1 .media-content p.photo-credit{
+  margin-top: 5rem;
+  font-weight: 400;
+  margin-left: 10%;
+}
+
+.fes-1 .media-content p.video-credit{
+  font-weight: 400;
+  margin-left: 10%;
 }
 
 /*Religion*/
