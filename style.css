@@ -2118,6 +2118,7 @@ html {
 
 .fes-1 .festival1-text-content p{
   margin-left: 18%;
+<<<<<<< HEAD
 }
 .fes-1 .media-content p.photo-credit{
   margin-top: 5rem;
@@ -2154,6 +2155,8 @@ html {
 
 .fes-1 .festival1-text-content p{
   margin-left: 18%;
+=======
+>>>>>>> festival
 }
 
 /*Religion*/
@@ -2298,38 +2301,6 @@ html {
 .religion-left-content .styled-hr::after {
   width: 15px; 
 }
-
-/* Another eco-tourism (Aquino Museum) */
-.aquino-right-content {
-  display: flex;
-  align-items: center;
-  max-width: 78rem;
-  margin: auto;
-  margin-bottom: 5vb;
-  font-family: "Poppins", sans-serif;
-  font-size: 1.12rem;
-}
-
-.aquino-right-content .styled-hr {
-  display: flex;
-  gap: 7px; 
-  margin: 0.6rem 0 1.5rem 0;
-}
-
-.aquino-right-content .styled-hr::before, .aquino-right-content
-.styled-hr::after {
-  content: "";
-  display: block;
-  width: 32px; 
-  height: 2.5px;   
-  margin-left: 0.3rem;
-  background-color: rgb(18, 122, 190);
-}
-
-.aquino-right-content .styled-hr::after {
-  width: 15px; 
-}
-
 
 
 /* Responsive Website*/
