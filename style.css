@@ -1900,10 +1900,11 @@ html {
 
 /*Religion*/
 
-.adventure-right-content .images-right img.anao-church{
+.religion-right-content .images-right img.anao-church{
   width: 35rem;
   max-width: 50rem;
-  height: auto;
+  height: 25rem;
+  margin-left: 3rem;
 }
 
 .images-right img.img-1-faith {
@@ -1927,6 +1928,7 @@ html {
   margin: auto;
   margin-bottom: 5vb;
   font-family: "Poppins", sans-serif;
+  font-size: 1.12rem;
 }
 
 .religion-right-content .styled-hr {
@@ -2012,6 +2014,14 @@ html {
   max-height: 50rem;
 }
 
+.images-left img.cathedral {
+  width: 35rem; 
+  height: 25rem;
+  margin-right: 2.5rem;
+  max-width: 50rem;
+  max-height: 50rem;
+}
+
 .religion-left-content .styled-hr {
   display: flex;
   gap: 7px; 
@@ -2030,6 +2040,9 @@ html {
 .religion-left-content .styled-hr::after {
   width: 15px; 
 }
+
+
+/* Responsive Website*/
 
 @media screen and (max-width: 1345px) {
   .products-container {
