@@ -1918,6 +1918,9 @@ html {
   margin-bottom: 0.4rem;
   margin-top: 0px;
 }
+.p {
+  text-align: justify;
+}
 
 .media-content {
   width: 50%;
