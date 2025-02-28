@@ -2119,6 +2119,42 @@ html {
 .fes-1 .festival1-text-content p{
   margin-left: 18%;
 }
+.fes-1 .media-content p.photo-credit{
+  margin-top: 5rem;
+  font-weight: 400;
+  margin-left: 10%;
+  color: white;
+}
+
+.fes-1 .media-content p.video-credit1{
+  font-weight: 400;
+  margin-left: 10%;
+  color: white;
+}
+.festival1-text-content .styled-hr2 {
+  display: flex;
+  gap: 7px; 
+  margin: 0.6rem 0 1.5rem 0;
+  margin-left: 18%;
+}
+
+.festival1-text-content .styled-hr2::before, .festival1-text-content
+.styled-hr2::after {
+  content: "";
+  display: block;
+  width: 32px; 
+  height: 2.5px;   
+  margin-left: 0.3rem;
+  background-color: white;
+}
+
+.festival1-text-content .styled-hr2::after {
+  width: 15px; 
+}
+
+.fes-1 .festival1-text-content p{
+  margin-left: 18%;
+}
 
 /*Religion*/
 
