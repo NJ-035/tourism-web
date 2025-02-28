@@ -1897,13 +1897,14 @@ html {
 .adventure-left-content .styled-hr::after {
   width: 15px; 
 }
+
 /*Festivals webpages*/
 
 .fes {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  margin: 0;
-  padding: 60px 40px;
+  margin-top: 2rem;
+  padding: 5.5rem 4rem;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
@@ -1913,13 +1914,20 @@ html {
   margin-right: 50px;
   margin-top: -2rem;
 }
+
 .h1 {
-  font-size: 1.5rem;
+  font-size: 2.1rem;
   margin-bottom: 0.4rem;
-  margin-top: 0px;
+  font-family: Arial, Helvetica, sans-serif;
 }
+
+.h1:hover{
+  color: rgb(0, 94, 138);
+}
+
 .p {
   text-align: justify;
+  font-size: 1.10rem;
 }
 
 .media-content {
@@ -1953,9 +1961,9 @@ html {
 
 .media-wrapper video {
   position: absolute;
-  top: 10px; /* Moves video further down */
-  left: 60px; /* Slight shift to the right */
-  width: 100%; /* Slightly larger */
+  top: 10px;
+  left: 60px; 
+  width: 100%;
   height: 110%;
   object-fit: cover;
   border-radius: 8px;
@@ -1994,12 +2002,15 @@ html {
   font-weight: 400;
   margin-left: 10%;
 }
+
+
 /*Second Layout*/
+
 .fes-1 {
   font-family: Arial, sans-serif;
   line-height: 1.6;
   margin: 0;
-  padding: 60px 40px;
+  padding: 5.5rem 4rem;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
@@ -2011,7 +2022,7 @@ html {
   margin-top: -2rem;
 }
 .h1-1 {
-  font-size: 1.5rem;
+  font-size: 2.1rem;
   margin-bottom: 0.4rem;
   margin-top: 0px;
   color: white;
@@ -2019,6 +2030,7 @@ html {
 }
 .fes-1 .festival1-text-content p {
   color: white;
+  font-size: 1.12rem;
 }
 
 .media-content {
