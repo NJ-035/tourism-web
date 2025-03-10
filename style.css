@@ -1953,8 +1953,37 @@ html {
   z-index: 1;
   transition: transform 0.3s ease, z-index 0.3s ease, box-shadow 0.3s ease;
 }
+.media-wrapper .image2{
+  position: absolute;
+  left: 0;
+  bottom: 520px;
+  width: 95%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+  transition: transform 0.3s ease, z-index 0.3s ease, box-shadow 0.3s ease;
+}
+.media-wrapper .image1{
+  position: absolute;
+  left: 0;
+  top: -50px;
+  width: 95%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+  transition: transform 0.3s ease, z-index 0.3s ease, box-shadow 0.3s ease;
+}
 
-.media-wrapper .image:hover {
+.media-wrapper .image2:hover {
+  z-index: 3;
+  transform: scale(1.1);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+.media-wrapper .image1:hover {
   z-index: 3;
   transform: scale(1.1);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
@@ -1972,7 +2001,30 @@ html {
   border: 4px solid #fff;
   z-index: 2;
 }
-
+.media-wrapper .vid {
+  position: absolute;
+  top: -470px;
+  left: 60px; 
+  width: 100%;
+  height: 110%;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.35);
+  border: 4px solid #fff;
+  z-index: 2;
+}
+.media-wrapper .video {
+  position: absolute;
+  top: -5px;
+  left: 60px; 
+  width: 100%;
+  height: 110%;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.35);
+  border: 4px solid #fff;
+  z-index: 2;
+}
 .festival-text-content .styled-hr {
   display: flex;
   gap: 7px; 
@@ -2011,7 +2063,17 @@ html {
   font-family: Arial, sans-serif;
   line-height: 1.6;
   margin: 0;
-  padding: 5.5rem 4rem;
+  padding:5.5rem 4rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: rgb(6, 53, 71);
+}
+.fes-2 {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin-bottom: 50px;
+  padding:35.5rem 4rem;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
@@ -2022,14 +2084,34 @@ html {
   margin-right: 50px;
   margin-top: -2rem;
 }
+.festival1-text-content1 {
+  width: 40%;
+  margin-left:100px;
+  margin-right: 50px;
+  margin-top: -30rem;
+  color: white;
+}
 .h1-1 {
   font-size: 2.1rem;
   margin-bottom: 0.4rem;
   margin-top: 0px;
   color: white;
   margin-left: 18%;
+  
 }
 
+.h1-2 {
+  font-size: 2.1rem;
+  margin-bottom: 50rem;
+  margin-top: 220px;
+  color: white;
+  margin-left: 20%;
+  margin-right: 0%;
+}
+
+.h1-2:hover{
+  color: gold;
+}
 .h1-1:hover{
   color: gold;
 }
