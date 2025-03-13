@@ -2334,6 +2334,50 @@ html {
   width: 15px; 
 }
 
+/* Concepcion Festival*/
+
+.concepcion-festival .festival-text-content {
+  width: 40%;
+  margin-right: 50px;
+  margin-top: -2rem;
+  color: white;
+}
+
+.h1-concepcion {
+  font-size: 2.1rem;
+  margin-bottom: 0.4rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.h1-concepcion:hover{
+  color: gold;
+}
+
+.p {
+  text-align: justify;
+  font-size: 1.10rem;
+}
+
+.concepcion-festival .festival-text-content .styled-hr {
+  display: flex;
+  gap: 7px; 
+  margin: 0.6rem 0 1.5rem 0;
+}
+
+.concepcion-festival .festival-text-content .styled-hr::before, .concepcion-festival .festival-text-content
+.styled-hr::after {
+  content: "";
+  display: block;
+  width: 32px; 
+  height: 2.5px;   
+  margin-left: 0.3rem;
+  background-color: #ffffff;
+}
+
+.concepcion-festival .festival-text-content .styled-hr::after {
+  width: 15px; 
+}
+
 /*Religion*/
 
 .religion-right-content .images-right img.anao-church{
