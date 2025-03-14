@@ -1,4 +1,4 @@
-# Provincial Tourism Office - Website
+# Tourism
 
 Website of the Provincial Tourism Office in Diwa ng Tarlac.
 
