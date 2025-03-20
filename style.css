@@ -1152,6 +1152,24 @@ html {
   white-space: nowrap; 
 }
 
+.social-link-2 {
+  display: block;
+  margin-left: 1.7rem; 
+  color: rgb(30, 104, 153);
+  font-size: 0.98rem;
+  text-decoration: none;
+}
+
+.contact-1{
+  font-size: 0.98rem;
+}
+
+.contact-2{
+  display: block;
+  margin-left: 1.7rem; 
+  font-size: 0.98rem;
+}
+
 /* Food Container */
 
 .food-right-content {
@@ -1566,6 +1584,10 @@ html {
 
 #tel-phone{
   margin-right: 0.42rem;
+}
+
+.camiling-resto{
+  margin-left: 1.1rem;
 }
 
 /* eco - tourism trp 1*/
