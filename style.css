@@ -1539,6 +1539,37 @@ html {
   margin: 3rem 0 2rem 0; 
 }
 
+/* Another eco-tourism (Aquino Museum) */
+.aquino-right-content {
+  display: flex;
+  align-items: center;
+  max-width: 78rem;
+  margin: auto;
+  margin-bottom: 5vb;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.12rem;
+}
+
+.aquino-right-content .styled-hr {
+  display: flex;
+  gap: 7px; 
+  margin: 0.6rem 0 1.5rem 0;
+}
+
+.aquino-right-content .styled-hr::before, .aquino-right-content
+.styled-hr::after {
+  content: "";
+  display: block;
+  width: 32px; 
+  height: 2.5px;   
+  margin-left: 0.3rem;
+  background-color: rgb(18, 122, 190);
+}
+
+.aquino-right-content .styled-hr::after {
+  width: 15px; 
+}
+
 .adventure-right-content {
   display: flex;
   align-items: center;
@@ -1897,26 +1928,38 @@ html {
 .adventure-left-content .styled-hr::after {
   width: 15px; 
 }
+
 /*Festivals webpages*/
 
 .fes {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  margin: 0;
-  padding: 60px 40px;
+  margin-top: 2rem;
+  padding: 5.5rem 4rem;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
 }
+
 .festival-text-content {
   width: 40%;
   margin-right: 50px;
   margin-top: -2rem;
 }
+
 .h1 {
-  font-size: 1.5rem;
+  font-size: 2.1rem;
   margin-bottom: 0.4rem;
-  margin-top: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.h1:hover{
+  color: rgb(0, 94, 138);
+}
+
+.p {
+  text-align: justify;
+  font-size: 1.10rem;
 }
 
 .media-content {
@@ -1941,8 +1984,37 @@ html {
   z-index: 1;
   transition: transform 0.3s ease, z-index 0.3s ease, box-shadow 0.3s ease;
 }
+.media-wrapper .image2{
+  position: absolute;
+  left: 0;
+  bottom: 520px;
+  width: 95%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+  transition: transform 0.3s ease, z-index 0.3s ease, box-shadow 0.3s ease;
+}
+.media-wrapper .image1{
+  position: absolute;
+  left: 0;
+  top: -50px;
+  width: 95%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+  transition: transform 0.3s ease, z-index 0.3s ease, box-shadow 0.3s ease;
+}
 
-.media-wrapper .image:hover {
+.media-wrapper .image2:hover {
+  z-index: 3;
+  transform: scale(1.1);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+.media-wrapper .image1:hover {
   z-index: 3;
   transform: scale(1.1);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
@@ -1950,9 +2022,33 @@ html {
 
 .media-wrapper video {
   position: absolute;
-  top: 10px; /* Moves video further down */
-  left: 60px; /* Slight shift to the right */
-  width: 100%; /* Slightly larger */
+  top: 10px;
+  left: 60px; 
+  width: 100%;
+  height: 110%;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.35);
+  border: 4px solid #fff;
+  z-index: 2;
+}
+.media-wrapper .vid {
+  position: absolute;
+  top: -470px;
+  left: 60px; 
+  width: 100%;
+  height: 110%;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.35);
+  border: 4px solid #fff;
+  z-index: 2;
+}
+.media-wrapper .video {
+  position: absolute;
+  top: -5px;
+  left: 60px; 
+  width: 100%;
   height: 110%;
   object-fit: cover;
   border-radius: 8px;
@@ -1991,12 +2087,25 @@ html {
   font-weight: 400;
   margin-left: 10%;
 }
+
+
 /*Second Layout*/
+
 .fes-1 {
   font-family: Arial, sans-serif;
   line-height: 1.6;
   margin: 0;
-  padding: 60px 40px;
+  padding:5.5rem 4rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: rgb(6, 53, 71);
+}
+.fes-2 {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin-bottom: 50px;
+  padding:35.5rem 4rem;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
@@ -2007,14 +2116,42 @@ html {
   margin-right: 50px;
   margin-top: -2rem;
 }
+.festival1-text-content1 {
+  width: 40%;
+  margin-left:100px;
+  margin-right: 50px;
+  margin-top: -30rem;
+  color: white;
+}
+
 .h1-1 {
-  font-size: 1.5rem;
+  font-size: 2.1rem;
   margin-bottom: 0.4rem;
   margin-top: 0px;
   color: white;
+  margin-left: 18%;
+  
 }
-.p {
+
+.h1-2 {
+  font-size: 2.1rem;
+  margin-bottom: 50rem;
+  margin-top: 220px;
   color: white;
+  margin-left: 20%;
+  margin-right: 0%;
+}
+
+.h1-2:hover{
+  color: gold;
+}
+.h1-1:hover{
+  color: gold;
+}
+
+.fes-1 .festival1-text-content p {
+  color: white;
+  font-size: 1.12rem;
 }
 
 .media-content {
@@ -2048,9 +2185,9 @@ html {
 
 .media-wrapper video {
   position: absolute;
-  top: 10px; /* Moves video further down */
-  left: 60px; /* Slight shift to the right */
-  width: 100%; /* Slightly larger */
+  top: 10px; 
+  left: 60px; 
+  width: 100%; 
   height: 110%;
   object-fit: cover;
   border-radius: 8px;
@@ -2079,15 +2216,166 @@ html {
   width: 15px; 
 }
 
+.fes-1 .media-content p.photo-credit1{
+  margin-top: 5rem;
+  font-weight: 400;
+  margin-left: 10%;
+  color: white;
+}
+
+.fes-1 .media-content p.video-credit1{
+  font-weight: 400;
+  margin-left: 10%;
+  color: white;
+}
+.festival1-text-content .styled-hr2 {
+  display: flex;
+  gap: 7px; 
+  margin: 0.6rem 0 1.5rem 0;
+  margin-left: 18%;
+}
+
+.festival1-text-content .styled-hr2::before, .festival1-text-content
+.styled-hr2::after {
+  content: "";
+  display: block;
+  width: 32px; 
+  height: 2.5px;   
+  margin-left: 0.3rem;
+  background-color: white;
+}
+
+.festival1-text-content .styled-hr2::after {
+  width: 15px; 
+}
+
+.fes-1 .festival1-text-content p{
+  margin-left: 18%;
+
+}
 .fes-1 .media-content p.photo-credit{
   margin-top: 5rem;
   font-weight: 400;
   margin-left: 10%;
+  color: white;
 }
 
-.fes-1 .media-content p.video-credit{
+.fes-1 .media-content p.video-credit1{
   font-weight: 400;
   margin-left: 10%;
+  color: white;
+}
+.festival1-text-content .styled-hr2 {
+  display: flex;
+  gap: 7px; 
+  margin: 0.6rem 0 1.5rem 0;
+  margin-left: 18%;
+}
+
+.festival1-text-content .styled-hr2::before, .festival1-text-content
+.styled-hr2::after {
+  content: "";
+  display: block;
+  width: 32px; 
+  height: 2.5px;   
+  margin-left: 0.3rem;
+  background-color: white;
+}
+
+.festival1-text-content .styled-hr2::after {
+  width: 15px; 
+}
+
+.fes-1 .festival1-text-content p{
+  margin-left: 18%;
+}
+
+/*Pura Festival*/
+
+.pura-festival .festival-text-content {
+  width: 40%;
+  margin-right: 50px;
+  margin-top: -2rem;
+  color: white;
+}
+
+.h1-pura {
+  font-size: 2.1rem;
+  margin-bottom: 0.4rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.h1-pura:hover{
+  color: gold;
+}
+
+.p {
+  text-align: justify;
+  font-size: 1.10rem;
+}
+
+.pura-festival .festival-text-content .styled-hr {
+  display: flex;
+  gap: 7px; 
+  margin: 0.6rem 0 1.5rem 0;
+}
+
+.pura-festival .festival-text-content .styled-hr::before, .pura-festival .festival-text-content
+.styled-hr::after {
+  content: "";
+  display: block;
+  width: 32px; 
+  height: 2.5px;   
+  margin-left: 0.3rem;
+  background-color: #ffffff;
+}
+
+.pura-festival .festival-text-content .styled-hr::after {
+  width: 15px; 
+}
+
+/* Concepcion Festival*/
+
+.concepcion-festival .festival-text-content {
+  width: 40%;
+  margin-right: 50px;
+  margin-top: -2rem;
+  color: white;
+}
+
+.h1-concepcion {
+  font-size: 2.1rem;
+  margin-bottom: 0.4rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.h1-concepcion:hover{
+  color: gold;
+}
+
+.p {
+  text-align: justify;
+  font-size: 1.10rem;
+}
+
+.concepcion-festival .festival-text-content .styled-hr {
+  display: flex;
+  gap: 7px; 
+  margin: 0.6rem 0 1.5rem 0;
+}
+
+.concepcion-festival .festival-text-content .styled-hr::before, .concepcion-festival .festival-text-content
+.styled-hr::after {
+  content: "";
+  display: block;
+  width: 32px; 
+  height: 2.5px;   
+  margin-left: 0.3rem;
+  background-color: #ffffff;
+}
+
+.concepcion-festival .festival-text-content .styled-hr::after {
+  width: 15px; 
 }
 
 /*Religion*/
@@ -2232,6 +2520,38 @@ html {
 .religion-left-content .styled-hr::after {
   width: 15px; 
 }
+
+/* Another eco-tourism (Aquino Museum) */
+.aquino-right-content {
+  display: flex;
+  align-items: center;
+  max-width: 78rem;
+  margin: auto;
+  margin-bottom: 5vb;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.12rem;
+}
+
+.aquino-right-content .styled-hr {
+  display: flex;
+  gap: 7px; 
+  margin: 0.6rem 0 1.5rem 0;
+}
+
+.aquino-right-content .styled-hr::before, .aquino-right-content
+.styled-hr::after {
+  content: "";
+  display: block;
+  width: 32px; 
+  height: 2.5px;   
+  margin-left: 0.3rem;
+  background-color: rgb(18, 122, 190);
+}
+
+.aquino-right-content .styled-hr::after {
+  width: 15px; 
+}
+
 
 
 /* Responsive Website*/
