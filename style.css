@@ -1152,6 +1152,24 @@ html {
   white-space: nowrap; 
 }
 
+.social-link-2 {
+  display: block;
+  margin-left: 1.7rem; 
+  color: rgb(30, 104, 153);
+  font-size: 0.98rem;
+  text-decoration: none;
+}
+
+.contact-1{
+  font-size: 0.98rem;
+}
+
+.contact-2{
+  display: block;
+  margin-left: 1.7rem; 
+  font-size: 0.98rem;
+}
+
 /* Food Container */
 
 .food-right-content {
@@ -1495,6 +1513,81 @@ html {
 
 .food-left-content .styled-hr::after {
   width: 15px; 
+}
+
+/* Food Webpage */
+
+.food-right-content-02 {
+  display: flex;
+  align-items: center;
+  max-width: 75rem;
+  margin: auto;
+  margin-bottom: 5vb;
+  font-family: "Poppins", sans-serif;
+}
+
+.food-right-content-02 .styled-hr-02 {
+  display: flex;
+  gap: 7px; 
+  margin: 0.6rem 0 1.5rem 0;
+}
+
+.food-right-content-02 .styled-hr-02::before, .food-right-content-02
+.styled-hr-02::after {
+  content: "";
+  display: block;
+  width: 32px; 
+  height: 2.5px;   
+  margin-left: 0.3rem;
+  background-color: rgb(18, 122, 190);
+}
+
+.food-right-content-02 .styled-hr-02::after {
+  width: 15px; 
+}
+
+.text-right-content-02 {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.text-right-content-02 h2{
+  font-size: 2rem;
+}
+
+.text-right-content-02:hover > h2 {
+  color: rgb(0, 94, 138);
+}
+
+.images-right-02 {
+  display: flex;
+  gap: 1.35rem; 
+}
+
+.images-right-02 img {
+  width: 22rem; 
+  height: auto;
+  border-radius: 0.5rem;
+}
+
+.images-right-02 img.img-1 {
+  width: 20rem; 
+  height: auto;
+  border-radius: 0.5rem;
+}
+
+.food-right-content-02 p{
+  font-size: 1.15rem;
+  margin-right: 5rem;
+  font-weight: 300;
+}
+
+#tel-phone{
+  margin-right: 0.42rem;
+}
+
+.camiling-resto{
+  margin-left: 1.1rem;
 }
 
 /* eco - tourism trp 1*/
