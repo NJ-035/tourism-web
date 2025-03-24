@@ -1453,6 +1453,8 @@ html {
   font-size: 2rem;
 }
 
+/* food-content new layout*/
+
 .food-left-content {
   display: flex;
   align-items: center;
@@ -1690,6 +1692,10 @@ html {
 
 .adventure-right-content .styled-hr::after {
   width: 15px; 
+}
+
+.adventure-right-content .text-right-content{
+  margin-bottom: 5vb;
 }
 
 .text-right-content {
@@ -4023,4 +4029,118 @@ html {
   height: 100px;
 }
 
+}
+
+/*web cover responsive*/
+
+/* For screens 1024px */
+@media screen and (max-width: 1024px) {
+  .web-cover-text {
+    left: 5rem;
+    margin-left: 5rem;
+  }
+
+  .web__title {
+    font-size: 5rem;
+  }
+
+  .web__explore {
+    font-size: 1.8rem;
+  }
+
+  .web__description {
+    font-size: 1.25rem;
+    max-width: 45rem;
+  }
+
+  .web-coverImg {
+    max-height: 80vh; /* Adjusted height for better fit */
+    margin-bottom: 8vh;
+  }
+}
+
+/* For screens 950px */
+@media screen and (max-width: 950px) {
+  .web-cover-text {
+    left: 4rem;
+    margin-left: 4rem;
+  }
+
+  .web__title {
+    font-size: 4.5rem;
+  }
+
+  .web__explore {
+    font-size: 1.6rem;
+  }
+
+  .web__description {
+    font-size: 1.15rem;
+    max-width: 42rem;
+  }
+
+  .web-coverImg {
+    max-height: 78vh;
+    margin-bottom: 7.5vh;
+  }
+}
+
+/* middle-content */
+
+/* Default layout (side by side) */
+.middle-content {
+  display: flex;
+  gap: 1.7rem;
+  max-width: 85rem;
+  margin: auto;
+  padding: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  flex-wrap: wrap;
+}
+
+/* At 1024px and smaller, stack items vertically */
+@media screen and (max-width: 1024px) {
+  .middle-content {
+    flex-direction: column; /* Stack content vertically */
+    align-items: center; /* Center the content */
+  }
+
+  .column {
+    width: 100%; /* Full width for smaller screens */
+    max-width: 40rem; /* Restrict width for better readability */
+  }
+
+  .column img {
+    width: 100%;
+    max-width: 35rem;
+  }
+
+  .atv {
+    width: 100%;
+    max-width: 30rem;
+    margin-top: 3vh;
+  }
+}
+
+/* For screens 950px and smaller */
+@media screen and (max-width: 950px) {
+  .middle-content {
+    flex-direction: column; /* Keep stacking */
+    align-items: center;
+  }
+
+  .column {
+    width: 100%;
+    max-width: 38rem;
+    padding: 1rem;
+  }
+
+  .column img {
+    max-width: 32rem;
+  }
+
+  .atv {
+    max-width: 28rem;
+    margin-top: 3vh;
+  }
 }
