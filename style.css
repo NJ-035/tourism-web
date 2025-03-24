@@ -2651,7 +2651,71 @@ html {
   width: 15px; 
 }
 
+/*isdaan-food-content*/
+.isdaan-right-content .images-right img.isdaan-restaurant{
+  width: 35rem;
+  max-width: 50rem;
+  height: 25rem;
+  margin-left: 3rem;
+}
 
+.images-right img.img-1-faith {
+  width: 24rem;
+  height: 16rem;
+  max-width: 40rem;
+  margin-left: 1.5rem;
+}
+
+.images-right img.img-2-faith {
+  width: 22rem;
+  height: 15rem;
+  max-width: 40rem;
+  margin-top: 3rem;
+}
+
+.isdaan-right-content {
+  display: flex;
+  align-items: center;
+  max-width: 80rem;
+  margin: auto;
+  margin-bottom: 8vb;
+  margin-top: 5vh;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.12rem;
+}
+
+.isdaan-right-content .styled-hr {
+  display: flex;
+  gap: 7px; 
+  margin: 0.6rem 0 1.5rem 0;
+}
+
+.isdaan-right-content .styled-hr::before, .isdaan-right-content
+.styled-hr::after {
+  content: "";
+  display: block;
+  width: 32px; 
+  height: 2.5px;   
+  margin-left: 0.3rem;
+  background-color: rgb(18, 122, 190);
+}
+
+.isdaan-right-content .styled-hr::after {
+  width: 15px; 
+}
+
+.text-right-content {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.text-right-content h2{
+  font-size: 2rem;
+}
+
+.text-right-content:hover > h2 {
+  color: rgb(0, 94, 138);
+}
 
 /* Responsive Website*/
 
