@@ -4213,19 +4213,18 @@ html {
     margin-bottom: 3vb;
   }
 
-
   .text-right-content {
     width: 100%;
     max-width: 40rem;
     padding: 1rem;
-}
+  }
 
   .adventure-right-content {
     flex-direction: column;
     align-items: center;
     width: 100%;
     max-width: 40rem;
-}
+  }
 
   .food-right-content {
     flex-direction: column;
@@ -4264,7 +4263,7 @@ html {
   width: 30vw !important;
   height: 25vh !important;
   margin-left: 0;
-}
+  }
 
   .img-1-eco, .img-2 {
       width: 100%; 
@@ -4328,6 +4327,18 @@ html {
     max-width: 35rem;
     margin-bottom: 3vb;
     margin-right: 5rem;
+  }
+
+  .religion-right-content .images-right img.img-1-faith{
+    margin-left: 5rem !important;
+    margin-right: 0;
+  }
+
+  .religion-right-content .images-right img.img-2-faith{
+    margin-left: 1.5rem !important;
+    margin-right: 5vw !important;
+    margin-top: 0;
+    height: 30vh;
   }
 
   .text-left-content {
