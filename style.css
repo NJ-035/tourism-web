@@ -4105,7 +4105,7 @@ html {
   }
 
   .web__title {
-    font-size: 5rem;
+    font-size: 4rem !important;
   }
 
   .web__explore {
@@ -4131,7 +4131,7 @@ html {
   }
 
   .web__title {
-    font-size: 4.5rem;
+    font-size: 3.5rem !important;
   }
 
   .web__explore {
@@ -4156,7 +4156,7 @@ html {
   }
 
   .web__title {
-    font-size: 3.5rem !important;
+    font-size: 2.5rem !important;
   }
 
   .web__explore {
@@ -4177,6 +4177,7 @@ html {
 /* middle-content */
 
 @media screen and (max-width: 1024px) {
+
   .middle-content {
     flex-direction: column;
     align-items: center; 
@@ -4211,18 +4212,12 @@ html {
     margin-bottom: 3vb;
   }
 
-  .text-right-content {
-    width: 100%;
-    max-width: 40rem;
-    padding: 1rem;
-}
-
-  .adventure-right-content {
+  .food-right-content {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    max-width: 40rem;
-}
+    max-width: 50rem;
+  }
 
   .images-right {
       order: -1; 
@@ -4230,16 +4225,101 @@ html {
       max-width: 35rem;
   }
 
-  .adventure-right-content img {
+  .images-right {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 0.5rem; 
+    justify-content: center;
+    align-items: center;
+    max-width: 35rem; 
+    margin: auto;
+}
+
+  .img-1, .img-2 {
+    width: 100%; 
+    object-fit: cover;
+  }
+
+  .bottom-img {
+  grid-column: span 2; 
+  width: auto;
+  max-width: 100%;
+  object-fit: cover;
+  width: 30vw !important;
+  height: 25vh !important;
+  margin-left: 0;
+}
+
+  .img-1-eco, .img-2 {
+      width: 100%; 
+      object-fit: cover;
+  }
+
+  .bottom-img-eco {
+    grid-column: span 2; 
+    width: auto;
+    max-width: 100%;
+    object-fit: cover;
+    width: 35vw !important;
+  }
+
+  .food-right-content img {
       width: 100%;
       max-width: 40rem;
   }
 
-  .text-right-content {
-      width: 100%;
-      max-width: 35rem;
+  .food-left-content{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 35em;
+  }
+
+  .food-left-content img{
+    width: 100%;
+    max-width: 35rem;
+    margin-bottom: 3vb;
+  }
+
+  .religion-left-content{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 35em;
+  }
+
+  .religion-left-content img{
+    width: 100%;
+    max-width: 35rem;
+    margin-bottom: 3vb;
+  }
+
+  .religion-right-content {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 35rem;
   }
   
+  .religion-right-content img {
+    width: 100%;
+    max-width: 35rem;
+    margin-bottom: 3vb;
+    margin-right: 5rem;
+  }
+
+  .text-left-content {
+    width: 100%;
+    max-width: 40rem;
+    padding: 1rem;
+  }
+
+  .text-right-content {
+    width: 100%;
+    max-width: 38rem;
+    width: 80vw;
+}
+
 }
 
 @media screen and (max-width: 950px) {
