@@ -4156,6 +4156,7 @@ html {
   }
 
   .web__title {
+    font-size: 3.5rem !important;
     font-size: 2.5rem !important;
   }
 
@@ -4212,12 +4213,27 @@ html {
     margin-bottom: 3vb;
   }
 
+
+  .text-right-content {
+    width: 100%;
+    max-width: 40rem;
+    padding: 1rem;
+}
+
+  .adventure-right-content {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 40rem;
+}
+
   .food-right-content {
     flex-direction: column;
     align-items: center;
     width: 100%;
     max-width: 50rem;
   }
+
 
   .images-right {
       order: -1; 
@@ -4233,7 +4249,7 @@ html {
     align-items: center;
     max-width: 35rem; 
     margin: auto;
-}
+  }
 
   .img-1, .img-2 {
     width: 100%; 
@@ -4267,6 +4283,12 @@ html {
       width: 100%;
       max-width: 40rem;
   }
+
+  .text-right-content {
+      width: 100%;
+      max-width: 35rem;
+  }
+  
 
   .food-left-content{
     flex-direction: column;
