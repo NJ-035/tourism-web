@@ -2083,6 +2083,7 @@ html {
   z-index: 1;
   transition: transform 0.3s ease, z-index 0.3s ease, box-shadow 0.3s ease;
 }
+
 .media-wrapper .image2{
   position: absolute;
   left: 0;
@@ -4169,7 +4170,8 @@ html {
   }
 
   .web-coverImg {
-    max-height: 78vh;
+    max-height: 100vh;
+    height: fit-content;
     margin-bottom: 7.5vh;
   }
 }
@@ -4409,6 +4411,87 @@ html {
   .text-right-content {
       width: 100%;
       padding: 1rem;
+  }
+
+}
+
+@media screen and (min-width: 375px) and (max-width: 768px) {
+
+  .media-content {
+    width: 90%;
+    position: relative;
+    align-items: center;
+  }
+
+  .media-wrapper {
+    position: relative;
+    width: 100%;
+    padding-top: 50%;
+  }
+  
+  .media-wrapper .image{
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+    transition: transform 0.3s ease, z-index 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .fes {
+    flex-direction: column;
+  }
+
+  .fes-1 {
+    flex-direction: column;
+  }
+
+  .media-content {
+      order: 1;
+  }
+
+  .festival-text-content {
+      order: 2;
+  }
+
+  .festival1-text-content {
+    order: 2;
+}
+
+  .fes .festival-text-content{
+    margin-top: 5vh;
+    width: 90%;
+  }
+
+  .fes-1 .festival1-text-content{
+    margin-top: 5vh;
+    width: 90%;
+  }
+
+  .fes-1 .festival1-text-content p.p, .h1-1{
+    margin: 0;
+    margin-top: 3rem;
+  }
+
+  .fes-1 .festival1-text-content .styled-hr2, .styled-hr2::before, .styled-hr2::after{
+    margin: 0;
+    margin-top: 0.5rem;
+  }
+
+  .concepcion-festival .festival-text-content {
+    width: 90%;
+    margin-right: 50px;
+    margin-top: 5vh;
+  }
+
+  .pura-festival .festival-text-content {
+    width: 90%;
+    margin-right: 50px;
+    margin-top: 5vh;
   }
 
 }
