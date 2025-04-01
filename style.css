@@ -4301,7 +4301,6 @@ html {
 
 }
 
-
 @media screen and (max-width: 425px) {
   .web-cover-text {
     margin-left: 0.2rem !important; 
@@ -4316,7 +4315,7 @@ html {
   }
 
   .web__explore {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
 
   .web__description {
