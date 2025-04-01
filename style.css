@@ -4244,8 +4244,8 @@ html {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    max-width: 40rem;
-}
+    max-width: 50rem;
+  }
 
   .images-right {
       order: -1; 
@@ -4253,14 +4253,87 @@ html {
       max-width: 35rem;
   }
 
-  .adventure-right-content img {
+  .images-right {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 0.5rem; 
+    justify-content: center;
+    align-items: center;
+    max-width: 35rem; 
+    margin: auto;
+}
+
+  .img-1, .img-2 {
+    width: 100%; 
+    object-fit: cover;
+  }
+
+  .bottom-img {
+  grid-column: span 2; 
+  width: auto;
+  max-width: 100%;
+  object-fit: cover;
+  width: 30vw !important;
+  height: 25vh !important;
+  margin-left: 0;
+}
+
+  .img-1-eco, .img-2 {
+      width: 100%; 
+      object-fit: cover;
+  }
+
+  .bottom-img-eco {
+    grid-column: span 2; 
+    width: auto;
+    max-width: 100%;
+    object-fit: cover;
+    width: 35vw !important;
+  }
+
+  .food-right-content img {
       width: 100%;
       max-width: 40rem;
   }
 
-  .text-right-content {
-      width: 100%;
-      max-width: 35rem;
+  .food-left-content{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 35em;
+  }
+
+  .food-left-content img{
+    width: 100%;
+    max-width: 35rem;
+    margin-bottom: 3vb;
+  }
+
+  .religion-left-content{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 35em;
+  }
+
+  .religion-left-content img{
+    width: 100%;
+    max-width: 35rem;
+    margin-bottom: 3vb;
+  }
+
+  .religion-right-content {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 35rem;
+  }
+  
+  .religion-right-content img {
+    width: 100%;
+    max-width: 35rem;
+    margin-bottom: 3vb;
+    margin-right: 5rem;
   }
   
 }
@@ -4324,145 +4397,8 @@ html {
 
 }
 
-@media screen and (max-width: 425px) {
-  .web-cover-text {
-    margin-left: 0.2rem !important; 
-    margin-right: 1rem;
-    padding-top: 3.3rem;
-    padding-right: 1.5rem;
-    padding-left: 0rem;
-  }
-
-  .web__title {
-    font-size: 2rem !important; 
-  }
-
-  .web__explore {
-    font-size: 1.5rem;
-  }
-
-  .web__description {
-    font-size: 0.80rem;
-    max-width: 100%;
-  }
-
-  .web-coverImg {
-    width: 100%;
-    object-fit: contain;
-    display: block;
-    margin: auto;
-    flex-wrap: wrap;
-    padding-top: 7rem;
-  }
-
-  .adventure-left-content img{
-    width: 100%;
-    max-width: 22rem;
-    margin-bottom: 3vb;
-    height: 30vh !important;
-    align-items: center;
-  }
-
-  .adventure-left-content{
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    max-width: 25rem !important;
-    margin-left: 1.5rem;
-  }
-
-  .adventure-left-content .text-left-content > p{
-    margin-right: 2rem !important;
-  }
-
-  .adventure-right-content {
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    max-width: 25rem !important;
-    margin-left: 1.5rem;
-}
-
-  .adventure-right-content img {
-      width: 100%;
-      max-width: 18rem !important;
-      margin-left: 10%;
-  }
-
-  .adventure-right-content .text-right-content > p {
-      width: 100%;
-      max-width: 23rem !important;
-      margin-right: 2rem !important;
-  }
-
-}
-
-
-@media screen and (max-width: 375px) {
-  .web-cover-text {
-    margin-right: 1rem;
-    padding-top: 3.3rem;
-    padding-right: 1.5rem;
-    padding-left: 0rem;
-  }
-
-  .web__title {
-    font-size: 1.8rem !important; 
-  }
-
-  .web__explore {
-    font-size: 1rem;
-  }
-
-  .web__description {
-    font-size: 0.80rem;
-    max-width: 100%;
-  }
-
-  .web-coverImg {
-    width: 100%;
-    padding-top: 7rem;
-  }
-
-  .adventure-left-content img{
-    width: 100%;
-    max-width: 18rem;
-    margin-bottom: 3vb;
-    height: 20vh !important;
-    align-items: center;
-  }
-
-  .adventure-left-content{
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    max-width: 20rem !important;
-    margin-left: 1.5rem;
-  }
-
-  .adventure-left-content .text-left-content > p{
-    margin-right: 2rem !important;
-  }
-
-  .adventure-right-content {
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    max-width: 20rem !important;
-    margin-left: 1.5rem;
-}
-
-  .adventure-right-content img {
-      width: 100%;
-      max-width: 18rem !important;
-      margin-left: 5%;
-  }
-
-  .adventure-right-content .text-right-content > p {
-      width: 100%;
-      padding: 1rem;
-  }
-
+@media screen and (max-width: 768px) {
+  
 }
 
 @media screen and (max-width: 425px) {
@@ -4590,9 +4526,6 @@ html {
     width: 100%;
     max-width: 20rem !important;
     margin-left: 1.5rem;
-    max-width: 20rem !important;
-    margin-right: 2rem !important;
-  }
 }
 
   .adventure-right-content img {
@@ -4606,3 +4539,4 @@ html {
       max-width: 20rem !important;
       margin-right: 2rem !important;
   }
+}
