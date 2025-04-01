@@ -2200,6 +2200,7 @@ html {
   align-items: flex-start;
   background-color: rgb(6, 53, 71);
 }
+
 .fes-2 {
   font-family: Arial, sans-serif;
   line-height: 1.6;
@@ -2210,11 +2211,13 @@ html {
   align-items: flex-start;
   background-color: rgb(22, 101, 133);
 }
+
 .festival1-text-content {
   width: 40%;
   margin-right: 50px;
   margin-top: -2rem;
 }
+
 .festival1-text-content1 {
   width: 40%;
   margin-left:100px;
@@ -2229,7 +2232,6 @@ html {
   margin-top: 0px;
   color: white;
   margin-left: 18%;
-  
 }
 
 .h1-2 {
@@ -2327,6 +2329,7 @@ html {
   margin-left: 10%;
   color: white;
 }
+
 .festival1-text-content .styled-hr2 {
   display: flex;
   gap: 7px; 
@@ -4186,7 +4189,8 @@ html {
 
   .column {
     width: 100%;
-    max-width: 40rem; 
+    max-width: 38rem; 
+
   }
 
   .column img {
@@ -4213,14 +4217,15 @@ html {
     margin-bottom: 3vb;
   }
 
-
   .text-right-content {
     width: 100%;
     max-width: 40rem;
     padding: 1rem;
+  }
 }
 
-  .adventure-right-content {
+
+.adventure-right-content {
     flex-direction: column;
     align-items: center;
     width: 100%;
@@ -4234,11 +4239,42 @@ html {
     max-width: 50rem;
   }
 
+  .food-right-content-02 {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 35rem;
+  }
+
+  .isdaan-right-content {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 35rem;
+    margin-left: 13rem;
+  }
+
+  .isdaan-right-content .images-right img.isdaan-restaurant {
+    margin-bottom: 3vb;
+    margin-left: 0;
+  }
+
 
   .images-right {
       order: -1; 
       width: 100%;
       max-width: 35rem;
+  }
+
+  .images-right-02 {
+    order: -1; 
+    width: 100%;
+    max-width: 35rem;
+  }
+
+  .images-right-02 img.img-1, img.img-2{
+    width: 25vw;
+    margin-bottom: 3vb;
   }
 
   .images-right {
@@ -4264,7 +4300,7 @@ html {
   width: 30vw !important;
   height: 25vh !important;
   margin-left: 0;
-}
+  }
 
   .img-1-eco, .img-2 {
       width: 100%; 
@@ -4330,6 +4366,18 @@ html {
     margin-right: 5rem;
   }
 
+  .religion-right-content .images-right img.img-1-faith{
+    margin-left: 5rem !important;
+    margin-right: 0;
+  }
+
+  .religion-right-content .images-right img.img-2-faith{
+    margin-left: 1.5rem !important;
+    margin-right: 5vw !important;
+    margin-top: 0;
+    height: 30vh;
+  }
+
   .text-left-content {
     width: 100%;
     max-width: 40rem;
@@ -4340,7 +4388,22 @@ html {
     width: 100%;
     max-width: 38rem;
     width: 80vw;
-}
+  }
+
+  .h1-1 {
+    margin-left: 25%;
+  }
+
+  .festival1-text-content .styled-hr2 {
+    margin-left: 25%;
+  }
+
+  .festival1-text-content > p.p {
+    width: 100%;
+    margin-right: 1rem;
+    margin-left: 25%;
+    color: white;
+  }
 
 }
 
@@ -4400,6 +4463,7 @@ html {
       width: 100%;
       padding: 1rem;
   }
+
 
 }
 
