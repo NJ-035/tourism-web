@@ -4373,3 +4373,70 @@ html {
   }
 }
 
+
+@media screen and (max-width: 375px) {
+  .web-cover-text {
+    margin-right: 1rem;
+    padding-top: 3.3rem;
+    padding-right: 1.5rem;
+    padding-left: 0rem;
+  }
+
+  .web__title {
+    font-size: 1.8rem !important; 
+  }
+
+  .web__explore {
+    font-size: 1rem;
+  }
+
+  .web__description {
+    font-size: 0.80rem;
+    max-width: 100%;
+  }
+
+  .web-coverImg {
+    width: 100%;
+    padding-top: 7rem;
+  }
+
+  .adventure-left-content img{
+    width: 100%;
+    max-width: 18rem;
+    margin-bottom: 3vb;
+    height: 20vh !important;
+    align-items: center;
+  }
+
+  .adventure-left-content{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 20rem !important;
+    margin-left: 1.5rem;
+  }
+
+  .adventure-left-content .text-left-content > p{
+    margin-right: 2rem !important;
+  }
+
+  .adventure-right-content {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 20rem !important;
+    margin-left: 1.5rem;
+}
+
+  .adventure-right-content img {
+      width: 100%;
+      max-width: 18rem !important;
+      margin-left: 5%;
+  }
+
+  .adventure-right-content .text-right-content > p {
+      width: 100%;
+      max-width: 20rem !important;
+      margin-right: 2rem !important;
+  }
+}
