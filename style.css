@@ -4397,7 +4397,6 @@ html {
 
 }
 
-
 @media screen and (max-width: 425px) {
   .web-cover-text {
     margin-left: 0.2rem !important; 
@@ -4460,7 +4459,7 @@ html {
   .adventure-right-content img {
       width: 100%;
       max-width: 18rem !important;
-      margin-left: 10%;
+      margin-right: 5rem;
   }
 
   .adventure-right-content .text-right-content > p {
@@ -4468,6 +4467,24 @@ html {
       max-width: 23rem !important;
       margin-right: 2rem !important;
   }
+
+  .adventure-right-content .images-right {
+    display: flex;
+    flex-direction: column; 
+    gap: 0.5rem; 
+    max-width: 30rem; 
+    width: 100%;
+  }
+
+  .adventure-right-content .images-right img.img-1 {
+      order: -1; 
+  }
+
+  .adventure-right-content .images-right img.img-2 {
+      order: 1; 
+  }
+
+
 }
 
 
