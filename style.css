@@ -4097,6 +4097,85 @@ html {
 
 }
 
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  .provincial-tourism {
+      padding: 1rem;
+      text-align: center;
+  }
+
+  .provincial-tourism .title {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+  }
+
+  .styled-hr {
+      width: 80%;
+      margin: 0 auto 1.5rem;
+  }
+
+  .tarlac-tourism-dept {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center; 
+      gap: 1rem;
+  }
+
+  .card {
+      width: 90%;
+      max-width: 400px;
+      padding: 1.5rem;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      background: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center; 
+      text-align: center;
+  }
+
+  .card img.logo {
+      width: 100px;
+      height: auto;
+      margin-bottom: 1rem;
+  }
+
+  .card h3 {
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+  }
+
+  .card p {
+      font-size: 1rem;
+      margin-bottom: 0.3rem;
+  }
+
+  .social-link {
+      display: inline-block;
+      font-size: 1rem;
+      color: #1e6899;
+      text-decoration: none;
+      margin-top: 0.5rem;
+  }
+
+  .img-tourism-logos {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-top: 1.5rem;
+      width: 100%; /* Ensures it takes full width */
+  }
+
+  .img-tourism-logos img {
+      width: 60px;
+      height: auto;
+  }
+}
+
+
+
+
 /*web cover responsive*/
 
 /* For screens 1024px */
@@ -4497,7 +4576,13 @@ html {
 
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (min-width: 375px) and (max-width: 425px){
+  html, body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+  }
+
   .web-cover-text {
     margin-left: 0.2rem !important; 
     margin-right: 1rem;
@@ -4568,20 +4653,17 @@ html {
       margin-right: 2rem !important;
   }
 
-  .adventure-right-content .images-right {
-    display: flex;
-    flex-direction: column; 
-    gap: 0.5rem; 
-    max-width: 30rem; 
-    width: 100%;
-  }
-
   .adventure-right-content .images-right img.img-1 {
       order: -1; 
   }
 
   .adventure-right-content .images-right img.img-2 {
       order: 1; 
+  }
+
+  .food-right-content {
+      display: flex;
+      flex-direction: column;
   }
 
   .food-right-content .images-right img.img-1-eco, img.img-2{
@@ -4607,17 +4689,17 @@ html {
   }
 
   .food-right-content .images-right > img.img-1-eco{
-    margin-left: 5rem;
+    margin-left: 3rem;
   }
 
   .images-right > img.bottom-img-eco{
     width: 55vw !important;
-    margin-right: 5rem !important;
   }
+
 
   .food-right-content .text-right-content > p{
     max-width: 100%;
-    width: 21rem;
+    width: 23rem;
   }
 
   .middle-content .column img.img-tour{

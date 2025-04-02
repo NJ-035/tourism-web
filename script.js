@@ -29,7 +29,7 @@ const navHover = function (e, opacity) {
         el.style.opacity = opacity;
       });
     }
-  }, 100); // 100ms delay to slow down effect
+  }, 100);
 };
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -84,4 +84,109 @@ function scrollFunction() {
 function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
+}
+
+/* HOME PAGE SLIDES */
+const slides = document.querySelectorAll(".slide");
+let current = 0;
+
+const hideSlides = () => {
+  for (const slide of slides) {
+    slide.style.display = "none";
+  }
+};
+
+const showSlide = index => {
+  slides[index].style.display = "block";
+};
+
+const next = () => {
+  hideSlides();
+  current = (current + 1) % slides.length;
+  showSlide(current);
+};
+
+const prev = () => {
+  hideSlides();
+  current = (current - 1 + slides.length) % slides.length;
+  showSlide(current);
+};
+
+const start = () => {
+  hideSlides();
+  showSlide(current);
+};
+
+start();
+
+/* DIORAMA VIDEO SHOW AND HIDE */
+const playButton = document.querySelector(".home__btn");
+const dioramaVideo = document.querySelector(".home__diorama");
+const dioramaOverlay = document.querySelector(".home__videoOverlay");
+const goBackIcon = document.querySelector(".homeIconClose");
+
+const setDisplayDioramaVideo = function (showDioramaVideo) {
+  dioramaVideo.style.display = showDioramaVideo ? "block" : "none";
+  playButton.style.display = showDioramaVideo ? "none" : "block";
+  dioramaOverlay.style.display = showDioramaVideo ? "block" : "none";
+  goBackIcon.style.display = showDioramaVideo ? "block" : "none";
+
+  arrows.forEach(arrow => {
+    arrow.style.display = showDioramaVideo ? "none" : "block";
+  });
+
+  if (showDioramaVideo) {
+    dioramaVideo.src =
+      "https://www.youtube.com/embed/eJZwMEo4ogg?autoplay=1&mute=0";
+    document.body.classList.add("no-scroll");
+  } else {
+    dioramaVideo.src =
+      "https://www.youtube.com/embed/eJZwMEo4ogg?autoplay=1&mute=1";
+    document.body.classList.remove("no-scroll");
+  }
+};
+
+playButton.addEventListener("click", () => setDisplayDioramaVideo(true));
+goBackIcon.addEventListener("click", () => {
+  setDisplayDioramaVideo(false);
+});
+
+/* SLIDES DIORAMA */
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let navImages = document.getElementsByClassName("click-image");
+
+  if (n > slides.length) {
+    slideIndex = 1;
+  }
+  if (n < 1) {
+    slideIndex = slides.length;
+  }
+
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+
+  for (i = 0; i < navImages.length; i++) {
+    navImages[i].classList.remove("active");
+  }
+
+  slides[slideIndex - 1].style.display = "flex";
+  navImages[slideIndex - 1].classList.add("active");
+}
+
+function nextSlide() {
+  showSlides((slideIndex += 1));
+}
+
+function prevSlide() {
+  showSlides((slideIndex -= 1));
+}
+
+function currentSlide(n) {
+  showSlides((slideIndex = n));
 }
