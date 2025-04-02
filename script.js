@@ -3,32 +3,50 @@
 /* NAVIGATION LINKS EFFECT */
 const nav = document.querySelector(".navbar");
 const arrows = document.querySelectorAll(".arrow");
+let hoverTimeout;
 
-const navHover = function (e) {
-  if (e.target.classList.contains("navbar__link")) {
-    const link = e.target;
-    const siblings = link.closest(".navbar").querySelectorAll(".navbar__link");
-    const title = link.closest(".navbar").querySelector(".navbar__title");
+const navHover = function (e, opacity) {
+  clearTimeout(hoverTimeout);
 
-    siblings.forEach(el => {
-      if (el !== link) el.style.opacity = this;
-    });
+  hoverTimeout = setTimeout(() => {
+    if (e.target.classList.contains("navbar__link")) {
+      const link = e.target;
+      const siblings = link.closest(".navbar").querySelectorAll(".navbar__link");
+      const title = link.closest(".navbar").querySelector(".navbar__title");
 
-    title.style.opacity = this;
-  }
+      siblings.forEach(el => {
+        if (el !== link) el.style.opacity = opacity;
+      });
 
-  if (e.target.classList.contains("navbar__title")) {
-    const title = e.target;
-    const links = title.closest(".navbar").querySelectorAll(".navbar__link");
+      if (title) title.style.opacity = opacity;
+    }
 
-    links.forEach(el => {
-      el.style.opacity = this;
-    });
-  }
+    if (e.target.classList.contains("navbar__title")) {
+      const title = e.target;
+      const links = title.closest(".navbar").querySelectorAll(".navbar__link");
+
+      links.forEach(el => {
+        el.style.opacity = opacity;
+      });
+    }
+  }, 100); // 100ms delay to slow down effect
 };
 
-nav.addEventListener("mouseover", navHover.bind(0.5));
-nav.addEventListener("mouseout", navHover.bind(1));
+document.addEventListener("DOMContentLoaded", function () {
+  const dropdown = document.querySelector(".dropdown");
+  let timeout;
+
+  dropdown.addEventListener("mouseenter", function () {
+      clearTimeout(timeout); 
+      this.classList.add("active");
+  });
+
+  dropdown.addEventListener("mouseleave", function () {
+      timeout = setTimeout(() => {
+          this.classList.remove("active");
+      }, 500);
+  });
+});
 
 /* MOBILE NAVIGATION TOGGLE */
 const navOpen = document.querySelector(".navOpen");
