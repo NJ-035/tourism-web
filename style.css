@@ -1231,6 +1231,7 @@ html {
   width: 30rem;
 }
 
+
 /* Food Container */
 
 .food-right-content {
@@ -4581,6 +4582,100 @@ html {
 
   .adventure-right-content .images-right img.img-2 {
       order: 1; 
+  }
+
+  .food-right-content .images-right img.img-1-eco, img.img-2{
+    width: 35vw !important;
+    height: 25vh !important;
+    margin-top: 3rem;
+  }
+
+  .food-right-content .images-right img.img-1-eco-1, img.img-2-eco-1{
+    width: 40vw !important;
+    height: 20vh !important;
+    margin-top: 3rem;
+  }
+
+  .food-right-content-calao .images-right img.img-1-eco-1, img.img-2-eco-1{
+    width: 40vw !important;
+    height: 20vh !important;
+    margin-top: 3rem;
+  }
+
+  .food-right-content .images-right > img.img-1-eco-1{
+    margin-left: 5rem;
+  }
+
+  .food-right-content .images-right > img.img-1-eco{
+    margin-left: 5rem;
+  }
+
+  .images-right > img.bottom-img-eco{
+    width: 55vw !important;
+    margin-right: 5rem !important;
+  }
+
+  .food-right-content .text-right-content > p{
+    max-width: 100%;
+    width: 21rem;
+  }
+
+  .middle-content .column img.img-tour{
+    width: 75vw;
+    height: 25vh;
+  }
+
+  .food-left-content .images-left img.img-1{
+    width: 75vw;
+    height: 25vh;
+  }
+
+  .food-left-content .text-left-content{
+    margin-left: 1.08rem;
+    padding-left: 0;
+  }
+
+  .middle-content .column img.img-tour-1{
+    width: 80vw;
+    height: 25vh;
+  }
+
+  .religion-left-content .images-left img.cathedral{
+    width: 80vw;
+    height: 25vh;
+    margin-left: 1.5rem;
+  }
+
+  .religion-left-content {
+    max-width: 100%;
+    width: 21rem;
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  .religion-right-content .images-right img.anao-church{
+    width: 80vw;
+    height: 25vh;
+  }
+
+  .religion-right-content{
+    max-width: 100%;
+    width: 23rem;
+    margin-left: 0;
+  }
+
+  .religion-right-content .text-right-content > p{
+    margin-left: 0.5rem !important;
+    padding-left: 0;
+  }
+
+  .religion-right-content .images-right img.anao-church{
+    margin-left: 6rem !important;
+  }
+  
+  .middle-content{
+    margin-left: 0;
+    padding-left: 0;
   }
 
 }
