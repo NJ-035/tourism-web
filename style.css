@@ -4450,6 +4450,17 @@ html {
     color: white;
   }
 
+  .images-right-02 {
+    order: -1; 
+    width: 100%;
+    max-width: 35rem;
+  }
+
+  .images-right-02 img.img-1, img.img-2{
+    width: 25vw;
+    margin-bottom: 3vb;
+  }
+
   
 }
 
