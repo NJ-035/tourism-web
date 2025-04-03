@@ -461,7 +461,6 @@ html {
   height: 20rem;
   width: 30rem;
   margin-right: 2.5rem;
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1127,6 +1126,7 @@ html {
 .provincial-tourism .card p.name{
   font-size: 1.03rem;
 }
+
 
 .social-link {
   text-decoration: none;
@@ -4098,6 +4098,7 @@ html {
 }
 
 @media screen and (min-width: 375px) and (max-width: 768px) {
+
   .provincial-tourism {
       padding: 1rem;
       text-align: center;
@@ -4106,6 +4107,7 @@ html {
   .provincial-tourism .title {
       font-size: 1.5rem;
       margin-bottom: 1rem;
+      margin-top: 1rem;
   }
 
   .styled-hr {
@@ -4117,45 +4119,51 @@ html {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      align-items: center; 
+      align-items: center;
       gap: 1rem;
+      max-width: 100%;
+      margin: 0 auto;
   }
 
   .card {
       width: 90%;
-      max-width: 400px;
+      max-width: 350px; 
       padding: 1.5rem;
       box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
       border-radius: 10px;
       background: #fff;
       display: flex;
       flex-direction: column;
-      align-items: center; 
+      align-items: center;
       text-align: center;
+      margin: 0 auto;
+      word-wrap: break-word;  
+      overflow-wrap: break-word;
   }
 
   .card img.logo {
-      width: 100px;
+      width: 80px;
       height: auto;
       margin-bottom: 1rem;
+      align-self: center;
   }
 
   .card h3 {
-      font-size: 1.2rem;
+      font-size: 1.1rem;
       margin-bottom: 0.5rem;
+      white-space: normal; 
+      word-wrap: break-word;
+      overflow-wrap: break-word;
+      max-width: 100%; 
   }
 
   .card p {
       font-size: 1rem;
       margin-bottom: 0.3rem;
-  }
-
-  .social-link {
-      display: inline-block;
-      font-size: 1rem;
-      color: #1e6899;
-      text-decoration: none;
-      margin-top: 0.5rem;
+      word-wrap: break-word;
+      overflow-wrap: break-word;
+      white-space: normal;
+      max-width: 95%; 
   }
 
   .img-tourism-logos {
@@ -4163,17 +4171,16 @@ html {
       justify-content: center;
       flex-wrap: wrap;
       gap: 0.5rem;
-      margin-top: 1.5rem;
-      width: 100%; /* Ensures it takes full width */
+      margin: 1.5rem auto;
+      width: 90%;
   }
 
   .img-tourism-logos img {
-      width: 60px;
+      width: 50px; 
       height: auto;
   }
+
 }
-
-
 
 
 /*web cover responsive*/
@@ -4576,7 +4583,7 @@ html {
 
 }
 
-@media screen and (min-width: 375px) and (max-width: 425px){
+@media screen and (min-width: 375px) and (max-width: 768px) {
   html, body {
     overflow-x: hidden;
     margin: 0;
@@ -4584,7 +4591,7 @@ html {
   }
 
   .web-cover-text {
-    margin-left: 0.2rem !important; 
+    margin-left: 0.2rem !important;
     margin-right: 1rem;
     padding-top: 3.3rem;
     padding-right: 1.5rem;
@@ -4592,15 +4599,15 @@ html {
   }
 
   .web__title {
-    font-size: 2rem !important; 
+    font-size: 2.2rem !important;
   }
 
   .web__explore {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
 
   .web__description {
-    font-size: 0.80rem;
+    font-size: 0.85rem;
     max-width: 100%;
   }
 
@@ -4610,222 +4617,104 @@ html {
     display: block;
     margin: auto;
     flex-wrap: wrap;
-    padding-top: 7rem;
+    padding-top: 6rem;
   }
 
-  .adventure-left-content img{
+  .adventure-left-content img {
     width: 100%;
-    max-width: 22rem;
+    max-width: 24rem;
     margin-bottom: 3vb;
-    height: 30vh !important;
+    height: 32vh !important;
     align-items: center;
   }
 
-  .adventure-left-content{
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    max-width: 25rem !important;
-    margin-left: 1.5rem;
-  }
-
-  .adventure-left-content .text-left-content > p{
-    margin-right: 2rem !important;
-  }
-
+  .adventure-left-content,
   .adventure-right-content {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    max-width: 25rem !important;
+    max-width: 27rem !important;
     margin-left: 1.5rem;
-}
+  }
 
   .adventure-right-content img {
-      width: 100%;
-      max-width: 18rem !important;
-      margin-right: 5rem;
+    width: 100%;
+    max-width: 20rem !important;
+    margin-right: 4rem;
   }
 
-  .adventure-right-content .text-right-content > p {
-      width: 100%;
-      max-width: 23rem !important;
-      margin-right: 2rem !important;
-  }
-
-  .adventure-right-content .images-right img.img-1 {
-      order: -1; 
-  }
-
-  .adventure-right-content .images-right img.img-2 {
-      order: 1; 
+  .adventure-right-content .text-right-content > p,
+  .adventure-left-content .text-left-content > p {
+    margin-right: 2rem !important;
   }
 
   .food-right-content {
-      display: flex;
-      flex-direction: column;
+    display: flex;
+    flex-direction: column;
   }
 
-  .food-right-content .images-right img.img-1-eco, img.img-2{
-    width: 35vw !important;
-    height: 25vh !important;
-    margin-top: 3rem;
+  .food-right-content .images-right {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
   }
 
-  .food-right-content .images-right img.img-1-eco-1, img.img-2-eco-1{
-    width: 40vw !important;
-    height: 20vh !important;
-    margin-top: 3rem;
+  .food-right-content .images-right img {
+    width: 30vw;
+    height: 25vh;
+    object-fit: cover;
   }
 
-  .food-right-content-calao .images-right img.img-1-eco-1, img.img-2-eco-1{
-    width: 40vw !important;
-    height: 20vh !important;
-    margin-top: 3rem;
+  .bottom-img-eco {
+    display: block;
+    margin: 0 auto;
+    width: 60vw !important;
+    height: auto;
+    margin-right: 7.5rem !important;
+}
+
+  .food-right-content .text-right-content > p {
+    max-width: 100%;
+    width: 25rem;
   }
 
-  .food-right-content .images-right > img.img-1-eco-1{
-    margin-left: 5rem;
+  .middle-content .column img.img-tour,
+  .food-left-content .images-left img.img-1,
+  .middle-content .column img.img-tour-1,
+  .religion-left-content .images-left img.cathedral,
+  .religion-right-content .images-right img.anao-church {
+    width: 80vw;
+    height: 28vh;
   }
 
-  .food-right-content .images-right > img.img-1-eco{
-    margin-left: 3rem;
-  }
-
-  .images-right > img.bottom-img-eco{
-    width: 55vw !important;
-  }
-
-
-  .food-right-content .text-right-content > p{
+  .religion-left-content,
+  .religion-right-content {
     max-width: 100%;
     width: 23rem;
-  }
-
-  .middle-content .column img.img-tour{
-    width: 75vw;
-    height: 25vh;
-  }
-
-  .food-left-content .images-left img.img-1{
-    width: 75vw;
-    height: 25vh;
-  }
-
-  .food-left-content .text-left-content{
-    margin-left: 1.08rem;
-    padding-left: 0;
-  }
-
-  .middle-content .column img.img-tour-1{
-    width: 80vw;
-    height: 25vh;
-  }
-
-  .religion-left-content .images-left img.cathedral{
-    width: 80vw;
-    height: 25vh;
-    margin-left: 1.5rem;
-  }
-
-  .religion-left-content {
-    max-width: 100%;
-    width: 21rem;
     margin-left: 0;
     padding-left: 0;
   }
 
-  .religion-right-content .images-right img.anao-church{
-    width: 80vw;
-    height: 25vh;
-  }
-
-  .religion-right-content{
-    max-width: 100%;
-    width: 23rem;
-    margin-left: 0;
-  }
-
-  .religion-right-content .text-right-content > p{
+  .religion-right-content .text-right-content > p {
     margin-left: 0.5rem !important;
     padding-left: 0;
   }
 
-  .religion-right-content .images-right img.anao-church{
-    margin-left: 6rem !important;
-  }
-  
-  .middle-content{
+  .middle-content {
     margin-left: 0;
     padding-left: 0;
   }
 
-}
-
-
-@media screen and (max-width: 375px) {
-  .web-cover-text {
-    margin-right: 1rem;
-    padding-top: 3.3rem;
-    padding-right: 1.5rem;
-    padding-left: 0rem;
+  .assisi{
+    margin-top: 5rem;
+    height: 15rem;
   }
 
-  .web__title {
-    font-size: 1.8rem !important; 
-  }
-
-  .web__explore {
-    font-size: 1rem;
-  }
-
-  .web__description {
-    font-size: 0.80rem;
-    max-width: 100%;
-  }
-
-  .web-coverImg {
-    width: 100%;
-    padding-top: 7rem;
-  }
-
-  .adventure-left-content img{
-    width: 100%;
-    max-width: 18rem;
-    margin-bottom: 3vb;
-    height: 20vh !important;
-    align-items: center;
-  }
-
-  .adventure-left-content{
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    max-width: 20rem !important;
-    margin-left: 1.5rem;
-  }
-
-  .adventure-left-content .text-left-content > p{
-    margin-right: 2rem !important;
-  }
-
-  .adventure-right-content {
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    max-width: 20rem !important;
-    margin-left: 1.5rem;
-}
-
-  .adventure-right-content img {
-      width: 100%;
-      max-width: 18rem !important;
-      margin-left: 5%;
-  }
-
-  .adventure-right-content .text-right-content > p {
-      width: 100%;
-      max-width: 20rem !important;
-      margin-right: 2rem !important;
+  .nonnatus{
+    margin-top: 4vh;
+    height: 15rem;
   }
 }
