@@ -4502,6 +4502,18 @@ html {
 
 }
 
+@media screen and (max-width: 768px) {
+  .assisi {
+    margin-top: 3rem;
+    height: 20rem; 
+  }
+
+  .nonnatus {
+    margin-top: 3vh; 
+    height: 20rem; 
+  }  
+}
+
 @media screen and (min-width: 375px) and (max-width: 768px) {
 
   .media-content {
@@ -4622,10 +4634,12 @@ html {
 
   .adventure-left-content img {
     width: 100%;
-    max-width: 24rem;
-    margin-bottom: 3vb;
-    height: 32vh !important;
-    align-items: center;
+    max-width: 22rem; 
+    margin-bottom: 3vh; 
+    height: auto; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .adventure-left-content,
@@ -4633,19 +4647,18 @@ html {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    max-width: 27rem !important;
-    margin-left: 1.5rem;
+    max-width: 40rem !important; 
   }
 
   .adventure-right-content img {
     width: 100%;
-    max-width: 20rem !important;
-    margin-right: 4rem;
+    max-width: 18rem !important; 
+    display: block;
   }
 
   .adventure-right-content .text-right-content > p,
   .adventure-left-content .text-left-content > p {
-    margin-right: 2rem !important;
+    max-width: 90%;
   }
 
   .food-right-content {
@@ -4706,15 +4719,5 @@ html {
   .middle-content {
     margin-left: 0;
     padding-left: 0;
-  }
-
-  .assisi{
-    margin-top: 5rem;
-    height: 15rem;
-  }
-
-  .nonnatus{
-    margin-top: 4vh;
-    height: 15rem;
   }
 }
