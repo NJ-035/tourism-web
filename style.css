@@ -4209,6 +4209,16 @@ html {
     max-height: 80vh;
     margin-bottom: 8vh;
   }
+
+  .food-right-content-02 {
+    display: flex;  
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: flex-start; 
+    width: 100%;
+    max-width: 35rem;
+}
+
 }
 
 /* For screens 950px */
@@ -4656,6 +4666,16 @@ html {
     display: block;
   }
 
+  .assisi {
+    margin-top: 3rem;
+    height: 18rem; 
+  }
+
+  .nonnatus {
+    margin-top: 3vh; 
+    height: 18rem; 
+  }
+
   .adventure-right-content .text-right-content > p,
   .adventure-left-content .text-left-content > p {
     max-width: 90%;
@@ -4681,6 +4701,46 @@ html {
     object-fit: cover;
   }
 
+  .food-right-content .text-right-content > p {
+    max-width: 100%;
+    width: 25rem;
+  }
+
+
+  .food-right-content-02 {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    margin-left: 1.5rem;
+  }
+
+.food-right-content-02 .images-right-02 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    order: -1;
+    margin-bottom: 1.5rem;
+}
+
+.food-right-content-02 .images-right-02 img {
+    width: 30vw;
+    height: 25vh;
+    object-fit: cover;
+}
+
+.food-right-content-02 .text-right-content {
+    text-align: center;
+    margin-top: 1rem; 
+}
+
+.food-right-content-02 .text-right-content > p {
+    max-width: 100%;
+    width: 25rem;
+    margin: 0 auto; 
+}
+
   .bottom-img-eco {
     display: block;
     margin: 0 auto;
@@ -4689,11 +4749,6 @@ html {
     margin-right: 7.5rem !important;
 }
 
-  .food-right-content .text-right-content > p {
-    max-width: 100%;
-    width: 25rem;
-  }
-
   .middle-content .column img.img-tour,
   .food-left-content .images-left img.img-1,
   .middle-content .column img.img-tour-1,
@@ -4701,6 +4756,16 @@ html {
   .religion-right-content .images-right img.anao-church {
     width: 80vw;
     height: 28vh;
+    margin-left: 1.5rem !important;
+  }
+  
+  .food-left-content .text-left-content > p{
+    padding-right: 0.5rem;
+  }
+
+  .religion-right-content .images-right > img.anao-church{
+    margin-left: 6.5rem !important;
+    display: block;
   }
 
   .religion-left-content,
@@ -4720,4 +4785,6 @@ html {
     margin-left: 0;
     padding-left: 0;
   }
+
+  
 }
