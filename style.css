@@ -4435,6 +4435,18 @@ html {
     margin-right: 5rem;
   }
 
+  .religion-right-content .images-right img.img-1-faith{
+    margin-left: 5rem !important;
+    margin-right: 0;
+  }
+
+  .religion-right-content .images-right img.img-2-faith{
+    margin-left: 1.5rem !important;
+    margin-right: 5vw !important;
+    margin-top: 0;
+    height: 30vh;
+  }
+
   .h1-1 {
     margin-left: 25%;
   }
@@ -4804,3 +4816,4 @@ html {
     margin-left: 1.5rem;
   }
 }
+
