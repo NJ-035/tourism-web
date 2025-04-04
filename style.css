@@ -4722,7 +4722,6 @@ html {
     display: flex;
     flex-direction: column; 
     align-items: center; 
-    margin-left: 1.5rem;
   }
 
 .food-right-content-02 .images-right-02 {
@@ -4798,4 +4797,10 @@ html {
   }
 
   
+}
+
+@media screen and (min-width: 375px) and (max-width: 425px) {
+  .food-right-content-02 .text-right-content-02 {
+    margin-left: 1.5rem;
+  }
 }
