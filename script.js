@@ -190,3 +190,4 @@ function prevSlide() {
 function currentSlide(n) {
   showSlides((slideIndex = n));
 }
+
