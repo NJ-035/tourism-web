@@ -7,4 +7,4 @@ Created by the Computer Science students and updated by the BSIT & BSIS students
 
 - [Website Link](https://tarlac-tourism.netlify.app)
 
--[Provincial Tourism Office of Tarlac (GitHub Repository)](https://github.com/tourismoffice/tarlac-tourism)
+- [Provincial Tourism Office of Tarlac (GitHub Repository)](https://github.com/tourismoffice/tarlac-tourism)
